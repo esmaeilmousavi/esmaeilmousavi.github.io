@@ -1,0 +1,55 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="85px" height="50px" viewBox="0 0 85 50">
+<defs>
+<image id="Bitmap_3" x="0" y="0" width="85" height="150" xlink:href="./images/Bitmap_3.png"/>
+
+<path id="Layer1_0_1_STROKES" stroke="#FFFFFF" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="square" fill="none" d="
+M 47.65 28.75
+L 43.2 28.75 43.2 24.9 43.2 21.3 47.65 21.3
+M 43.2 24.9
+L 46.15 24.9
+M 65.1 21.3
+L 65.1 27.6
+Q 65.1 28.75 63.8 28.75
+L 60.95 28.75
+Q 59.7 28.75 59.7 27.6
+L 59.7 21.3
+M 50.7 28.75
+L 50.7 21.3 56.7 28.75 56.7 21.3
+M 33.1 28.75
+L 33.1 21.3 36.7 28.25 40.3 21.3 40.3 28.75"/>
+
+<path id="Layer1_0_2_STROKES" stroke="#B3ACA5" stroke-width="1.25" stroke-linejoin="round" stroke-linecap="square" fill="none" d="
+M 18.35 21.5
+L 27.35 21.5
+M 18.35 28.5
+L 27.35 28.5
+M 18.35 25
+L 27.35 25"/>
+
+<path id="Layer0_0_1_STROKES" stroke="#B3ACA5" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" fill="none" d="
+M 8.95 10.9
+L 75.2 10.9
+Q 77.5 10.9 77.5 13.2
+L 77.5 35.45
+Q 77.5 37.75 75.2 37.75
+L 8.95 37.75
+Q 6.65 37.75 6.65 35.45
+L 6.65 13.2
+Q 6.65 10.9 8.95 10.9 Z"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, -5.25,0) ">
+<use xlink:href="#Bitmap_3"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer1_0_1_STROKES"/>
+
+<use xlink:href="#Layer1_0_2_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0.45,0.7) ">
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+</svg>
