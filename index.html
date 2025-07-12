@@ -146,7 +146,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-MPNLQ3X');
   </script>
 
-  <!-- Professional SEO Redirect Script -->
+  <!-- SEO Bot Detection Script -->
   <script>
     // Check if the user is a search engine bot or crawling agent
     function isSearchBot() {
@@ -155,68 +155,14 @@
       return bots.some(bot => userAgent.includes(bot));
     }
 
-    // Professional redirect implementation
-    function initializeRedirect() {
-      // Only redirect human visitors, not search bots
-      if (!isSearchBot()) {
-        // Add a subtle, professional redirect button
-        const redirectButton = document.createElement('div');
-        redirectButton.id = 'professional-redirect';
-        redirectButton.style.cssText = `
-          position: fixed;
-          bottom: 20px;
-          right: 20px;
-          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-          color: white;
-          padding: 15px 25px;
-          border-radius: 50px;
-          cursor: pointer;
-          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-          font-size: 14px;
-          font-weight: 500;
-          box-shadow: 0 4px 20px rgba(0,0,0,0.15);
-          z-index: 1000;
-          transition: all 0.3s ease;
-          text-decoration: none;
-          display: flex;
-          align-items: center;
-          gap: 8px;
-          max-width: 280px;
-          text-align: center;
-        `;
-        redirectButton.innerHTML = `
-          <span>🎓</span>
-          <span>View Official Profile</span>
-        `;
-        
-        // Add hover effects
-        redirectButton.addEventListener('mouseover', function() {
-          this.style.transform = 'translateY(-2px)';
-          this.style.boxShadow = '0 6px 25px rgba(0,0,0,0.2)';
-        });
-        
-        redirectButton.addEventListener('mouseout', function() {
-          this.style.transform = 'translateY(0)';
-          this.style.boxShadow = '0 4px 20px rgba(0,0,0,0.15)';
-        });
-        
-        // Add click handler
-        redirectButton.addEventListener('click', function() {
-          window.open('https://www.weber.edu/east/mousavi', '_blank');
-        });
-        
-        // Add to page
-        document.body.appendChild(redirectButton);
-        
-        // Optional: Add a small delay for automatic redirect (commented out for better UX)
-        // setTimeout(function() {
-        //   window.location.href = 'https://www.weber.edu/east/mousavi';
-        // }, 8000); // 8 second delay - much longer and more professional
+    // Log visitor type for analytics (optional)
+    document.addEventListener('DOMContentLoaded', function() {
+      if (isSearchBot()) {
+        console.log('Search bot detected - SEO optimization active');
+      } else {
+        console.log('Human visitor detected');
       }
-    }
-
-    // Initialize when page loads
-    document.addEventListener('DOMContentLoaded', initializeRedirect);
+    });
   </script>
 
   <!-- Additional SEO Enhancement Scripts -->
