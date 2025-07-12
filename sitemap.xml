@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+    <!-- Main Profile Page -->
+    <url>
+        <loc>https://esmaeilmousavi.github.io/</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <mobile:mobile/>
+        <image:image>
+            <image:loc>https://apps.weber.edu/wsuimages/east/Esmaeil_Mousavi(1).jpg</image:loc>
+            <image:caption>Esmaeil Mousavi - AI/ML Researcher and Founder of navNote LLC</image:caption>
+            <image:title>Esmaeil Mousavi Profile Photo</image:title>
+        </image:image>
+    </url>
+
+    <!-- Index Page -->
+    <url>
+        <loc>https://esmaeilmousavi.github.io/index.html</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <mobile:mobile/>
+        <image:image>
+            <image:loc>https://apps.weber.edu/wsuimages/east/Esmaeil_Mousavi(1).jpg</image:loc>
+            <image:caption>Esmaeil Mousavi - AI/ML Researcher and Founder of navNote LLC</image:caption>
+            <image:title>Esmaeil Mousavi Profile Photo</image:title>
+        </image:image>
+    </url>
+
+    <!-- Alternative Index Page -->
+    <url>
+        <loc>https://esmaeilmousavi.github.io/iindex.html</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Official University Profile (canonical) -->
+    <url>
+        <loc>https://www.weber.edu/east/mousavi</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <mobile:mobile/>
+        <xhtml:link rel="canonical" href="https://www.weber.edu/east/mousavi"/>
+    </url>
+
+    <!-- External Profile Links -->
+    <url>
+        <loc>https://www.navnote.net</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://www.linkedin.com/in/mousavi-ai/</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://scholar.google.com/citations?hl=en&user=lZQif9oAAAAJ</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://github.com/esmaeilmousavi</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://github.com/mousaviasl</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://orcid.org/0000-0002-2483-4275</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://www.crunchbase.com/person/esmaeil-mousavi</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://open.mit.edu/profile/01G7XMK3A48PDBDGVNMSTJWQTN/</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://www.wikidata.org/wiki/Q131101184</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Patent Links -->
+    <url>
+        <loc>https://patents.google.com/patent/WO2020026037A1/en</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2020026037</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://open.mit.edu/c/lemelsoneducators/4bg/twostroke-xshaped-engine-the-future-of-automotive</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Company Links -->
+    <url>
+        <loc>https://www.crunchbase.com/organization/navnote</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://www.linkedin.com/company/navNote</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://www.navnote.net/team</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Additional Profile Links -->
+    <url>
+        <loc>https://sites.google.com/mail.weber.edu/esmaeil/</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+        <mobile:mobile/>
+    </url>
+
+    <url>
+        <loc>https://www.ihubutah.org/directory/people/details/esmaeil+mousavi/r/recHYS1kzup6X3Eyx</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+        <mobile:mobile/>
+    </url>
+
+    <!-- Knowledge Panel Link -->
+    <url>
+        <loc>https://g.co/kgs/7GbuQHr</loc>
+        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+        <mobile:mobile/>
+    </url>
+
+</urlset> 

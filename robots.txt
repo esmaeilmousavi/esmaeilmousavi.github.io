@@ -1,0 +1,116 @@
+# Robots.txt for Esmaeil Mousavi's Official Website
+# This file helps search engines understand how to crawl and index the site
+# for better SEO and Google Knowledge Panel optimization
+
+# Allow all well-behaved crawlers
+User-agent: *
+Allow: /
+
+# Specifically allow major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: YandexBot
+Allow: /
+Crawl-delay: 1
+
+# Allow social media crawlers for better sharing
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Allow academic and research crawlers
+User-agent: AcademicBot
+Allow: /
+
+User-agent: ScientificBot
+Allow: /
+
+# Disallow spam and malicious bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: serpstatbot
+Disallow: /
+
+User-agent: PiplBot
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
+
+User-agent: spbot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://esmaeilmousavi.github.io/sitemap.xml
+
+# Contact information for webmaster
+# For questions about this robots.txt file, contact: esmaeilmousavi@weber.edu
+
+# Additional instructions for search engines
+# The canonical URL for this profile is: https://www.weber.edu/east/mousavi
+# This GitHub Pages site serves as a redirect and SEO enhancement for the official profile
+
+# Important: This site is optimized for Google Knowledge Panel creation
+# The main entity is Esmaeil Mousavi, AI/ML Researcher and Founder of navNote LLC
+# Key topics: Artificial Intelligence, Machine Learning, Weber State University, navNote LLC, Patents, Research
+
+# Links to verify:
+# - Official Profile: https://www.weber.edu/east/mousavi
+# - Company: https://www.navnote.net
+# - ORCID: https://orcid.org/0000-0002-2483-4275
+# - Google Scholar: https://scholar.google.com/citations?hl=en&user=lZQif9oAAAAJ
+# - LinkedIn: https://www.linkedin.com/in/mousavi-ai/
+# - GitHub: https://github.com/esmaeilmousavi
+# - Crunchbase: https://www.crunchbase.com/person/esmaeil-mousavi
+# - Patents: https://patents.google.com/patent/WO2020026037A1/en
+# - MIT Profile: https://open.mit.edu/profile/01G7XMK3A48PDBDGVNMSTJWQTN/
+# - Wikidata: https://www.wikidata.org/wiki/Q131101184
+
+# This robots.txt file is designed to maximize SEO value for:
+# 1. Google Knowledge Panel creation and optimization
+# 2. Academic and research visibility
+# 3. Professional networking and business development
+# 4. Patent and innovation recognition
+# 5. Technology and AI industry presence 
