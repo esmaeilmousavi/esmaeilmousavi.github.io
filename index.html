@@ -146,56 +146,77 @@
     })(window, document, 'script', 'dataLayer', 'GTM-MPNLQ3X');
   </script>
 
-  <!-- SEO Redirect Script -->
+  <!-- Professional SEO Redirect Script -->
   <script>
-    // Function to redirect to the official university website
-    function redirectToOfficial() {
-      // Add a small delay to allow search engines to index the page
-      setTimeout(function() {
-        window.location.href = 'https://www.weber.edu/east/mousavi';
-      }, 3000); // 3 second delay
-    }
-
-    // Check if the user is a search engine bot
+    // Check if the user is a search engine bot or crawling agent
     function isSearchBot() {
       const userAgent = navigator.userAgent.toLowerCase();
-      const bots = ['googlebot', 'bingbot', 'slurp', 'duckduckbot', 'baiduspider', 'yandexbot', 'facebookexternalhit', 'twitterbot', 'linkedinbot', 'whatsapp'];
+      const bots = ['googlebot', 'bingbot', 'slurp', 'duckduckbot', 'baiduspider', 'yandexbot', 'facebookexternalhit', 'twitterbot', 'linkedinbot', 'whatsapp', 'crawler', 'spider', 'bot'];
       return bots.some(bot => userAgent.includes(bot));
     }
 
-    // Only redirect human visitors, not search bots
-    if (!isSearchBot()) {
-      document.addEventListener('DOMContentLoaded', function() {
-        // Show a redirect notice to users
-        const redirectNotice = document.createElement('div');
-        redirectNotice.id = 'redirect-notice';
-        redirectNotice.style.cssText = `
+    // Professional redirect implementation
+    function initializeRedirect() {
+      // Only redirect human visitors, not search bots
+      if (!isSearchBot()) {
+        // Add a subtle, professional redirect button
+        const redirectButton = document.createElement('div');
+        redirectButton.id = 'professional-redirect';
+        redirectButton.style.cssText = `
           position: fixed;
-          top: 0;
-          left: 0;
-          width: 100%;
-          background: #2c3e50;
+          bottom: 20px;
+          right: 20px;
+          background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
           color: white;
-          padding: 15px;
+          padding: 15px 25px;
+          border-radius: 50px;
+          cursor: pointer;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+          font-size: 14px;
+          font-weight: 500;
+          box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+          z-index: 1000;
+          transition: all 0.3s ease;
+          text-decoration: none;
+          display: flex;
+          align-items: center;
+          gap: 8px;
+          max-width: 280px;
           text-align: center;
-          z-index: 9999;
-          font-family: Arial, sans-serif;
-          font-size: 16px;
-          box-shadow: 0 2px 10px rgba(0,0,0,0.3);
         `;
-        redirectNotice.innerHTML = `
-          <div>
-            <strong>Redirecting to Official Profile...</strong>
-            <p>You will be redirected to Esmaeil Mousavi's official profile at Weber State University in 3 seconds.</p>
-            <p><a href="https://www.weber.edu/east/mousavi" style="color: #3498db; text-decoration: underline;">Click here to go there now</a></p>
-          </div>
+        redirectButton.innerHTML = `
+          <span>🎓</span>
+          <span>View Official Profile</span>
         `;
-        document.body.insertBefore(redirectNotice, document.body.firstChild);
         
-        // Set up the redirect
-        redirectToOfficial();
-      });
+        // Add hover effects
+        redirectButton.addEventListener('mouseover', function() {
+          this.style.transform = 'translateY(-2px)';
+          this.style.boxShadow = '0 6px 25px rgba(0,0,0,0.2)';
+        });
+        
+        redirectButton.addEventListener('mouseout', function() {
+          this.style.transform = 'translateY(0)';
+          this.style.boxShadow = '0 4px 20px rgba(0,0,0,0.15)';
+        });
+        
+        // Add click handler
+        redirectButton.addEventListener('click', function() {
+          window.open('https://www.weber.edu/east/mousavi', '_blank');
+        });
+        
+        // Add to page
+        document.body.appendChild(redirectButton);
+        
+        // Optional: Add a small delay for automatic redirect (commented out for better UX)
+        // setTimeout(function() {
+        //   window.location.href = 'https://www.weber.edu/east/mousavi';
+        // }, 8000); // 8 second delay - much longer and more professional
+      }
     }
+
+    // Initialize when page loads
+    document.addEventListener('DOMContentLoaded', initializeRedirect);
   </script>
 
   <!-- Additional SEO Enhancement Scripts -->
