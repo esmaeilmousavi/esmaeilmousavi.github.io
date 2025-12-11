@@ -305,6 +305,17 @@ html {
   h2 {
     font-size: 22px !important;
   }
+  
+  /* Photo Gallery mobile optimization */
+  section[style*="Photo Gallery"] {
+    margin: 0 auto !important;
+    padding: 15px !important;
+  }
+  
+  /* Ensure no extra space from animations */
+  .content-with-photos {
+    padding: 0 !important;
+  }
 }
 
 /* Subtle parallax effect for hero section */
