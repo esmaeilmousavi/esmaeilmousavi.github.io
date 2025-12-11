@@ -158,16 +158,33 @@
 
   // Create photo gallery dynamically
   function createPhotoGallery() {
-    // Find the Biography section
-    const biographySection = document.querySelector('h2');
-    if (!biographySection || biographySection.textContent.trim() !== 'Biography') return;
+    console.log('Creating photo gallery...');
+    
+    // Find all h2 elements and look for Work Experience
+    const allH2s = document.querySelectorAll('h2');
+    let workExperienceH2 = null;
+    
+    allH2s.forEach(h2 => {
+      if (h2.textContent.includes('Work Experience')) {
+        workExperienceH2 = h2;
+      }
+    });
+    
+    if (!workExperienceH2) {
+      console.log('Work Experience section not found');
+      return;
+    }
+    
+    console.log('Work Experience section found');
 
     // Create gallery container
     const gallery = document.createElement('div');
     gallery.className = 'inline-photo-gallery';
+    gallery.style.margin = '40px 0';
     
     // Get 8 random photos
     const photos = getRandomPhotos(8);
+    console.log('Photos selected:', photos);
     
     photos.forEach(photo => {
       const photoContainer = document.createElement('div');
@@ -182,26 +199,60 @@
       gallery.appendChild(photoContainer);
     });
     
-    // Insert after Work Experience section
-    const workExperienceTable = document.querySelector('h2:nth-of-type(2)');
-    if (workExperienceTable && workExperienceTable.nextElementSibling) {
-      const tableElement = workExperienceTable.nextElementSibling;
-      tableElement.parentNode.insertBefore(gallery, tableElement.nextSibling);
+    // Insert after the Work Experience table
+    const workTable = workExperienceH2.nextElementSibling;
+    if (workTable) {
+      workTable.parentNode.insertBefore(gallery, workTable.nextSibling);
+      console.log('Gallery inserted successfully');
+    } else {
+      console.log('Could not find table to insert after');
     }
   }
 
   // Create photo mosaic for achievements section
   function createPhotoMosaic() {
-    // Find the achievements section
-    const achievementsSection = document.querySelector('h2[paraeid*="ACADEMIC"]');
-    if (!achievementsSection) return;
-
-    // Create mosaic container
+    console.log('Creating photo mosaic...');
+    
+    // Find the Collabs section (easier to find)
+    const allImages = document.querySelectorAll('img[src*="Collabs"]');
+    let collabsImage = allImages.length > 0 ? allImages[0] : null;
+    
+    if (!collabsImage) {
+      console.log('Collabs image not found');
+      // Try to insert before footer as fallback
+      const footer = document.querySelector('.footer');
+      if (!footer) {
+        console.log('Footer not found either');
+        return;
+      }
+      
+      // Create and insert mosaic
+      const mosaic = createMosaicElement();
+      footer.parentNode.insertBefore(mosaic, footer);
+      console.log('Mosaic inserted before footer');
+      return;
+    }
+    
+    console.log('Collabs image found');
+    
+    // Create and insert mosaic
+    const mosaic = createMosaicElement();
+    const collabsSection = collabsImage.closest('section') || collabsImage.parentElement;
+    if (collabsSection) {
+      collabsSection.parentNode.insertBefore(mosaic, collabsSection.nextSibling);
+      console.log('Mosaic inserted after Collabs section');
+    }
+  }
+  
+  function createMosaicElement() {
     const mosaic = document.createElement('div');
     mosaic.className = 'photo-mosaic';
+    mosaic.style.margin = '40px auto';
+    mosaic.style.maxWidth = '1200px';
     
     // Get remaining photos (different from gallery)
     const photos = getRandomPhotos(8);
+    console.log('Mosaic photos selected:', photos);
     
     photos.forEach(photo => {
       const mosaicItem = document.createElement('div');
@@ -216,11 +267,7 @@
       mosaic.appendChild(mosaicItem);
     });
     
-    // Insert before the footer
-    const footer = document.querySelector('.footer');
-    if (footer) {
-      footer.parentNode.insertBefore(mosaic, footer);
-    }
+    return mosaic;
   }
 
   // Public initialization
