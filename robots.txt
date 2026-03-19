@@ -83,21 +83,20 @@ User-agent: spbot
 Disallow: /
 
 # Sitemap location
-Sitemap: https://esmaeilmousavi.github.io/sitemap.xml
+Sitemap: https://esmaeil.org/sitemap.xml
 
 # Contact information for webmaster
 # For questions about this robots.txt file, contact: esmaeilmousavi@weber.edu
 
 # Additional instructions for search engines
-# The canonical URL for this profile is: https://www.weber.edu/east/mousavi
-# This GitHub Pages site serves as a redirect and SEO enhancement for the official profile
+# The canonical URL for this site is: https://esmaeil.org
 
 # Important: This site is optimized for Google Knowledge Panel creation
 # The main entity is Esmaeil Mousavi, AI/ML Researcher and Founder of navNote LLC
 # Key topics: Artificial Intelligence, Machine Learning, Weber State University, navNote LLC, Patents, Research
 
 # Links to verify:
-# - Official Profile: https://www.weber.edu/east/mousavi
+# - Official Site: https://esmaeil.org
 # - Company: https://www.navnote.net
 # - ORCID: https://orcid.org/0000-0002-2483-4275
 # - Google Scholar: https://scholar.google.com/citations?hl=en&user=lZQif9oAAAAJ

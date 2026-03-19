@@ -8,8 +8,8 @@
     
     <!-- Main Profile Page -->
     <url>
-        <loc>https://esmaeilmousavi.github.io/</loc>
-        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <loc>https://esmaeil.org/</loc>
+        <lastmod>2025-03-19T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <mobile:mobile/>
@@ -22,8 +22,8 @@
 
     <!-- Index Page -->
     <url>
-        <loc>https://esmaeilmousavi.github.io/index.html</loc>
-        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <loc>https://esmaeil.org/index.html</loc>
+        <lastmod>2025-03-19T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <mobile:mobile/>
@@ -36,21 +36,11 @@
 
     <!-- Alternative Index Page -->
     <url>
-        <loc>https://esmaeilmousavi.github.io/iindex.html</loc>
-        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+        <loc>https://esmaeil.org/iindex.html</loc>
+        <lastmod>2025-03-19T00:00:00+00:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
         <mobile:mobile/>
-    </url>
-
-    <!-- Official University Profile (canonical) -->
-    <url>
-        <loc>https://www.weber.edu/east/mousavi</loc>
-        <lastmod>2024-01-01T00:00:00+00:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-        <mobile:mobile/>
-        <xhtml:link rel="canonical" href="https://www.weber.edu/east/mousavi"/>
     </url>
 
     <!-- External Profile Links -->
