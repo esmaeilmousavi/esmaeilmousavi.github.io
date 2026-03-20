@@ -3,6 +3,14 @@
 <html class="no-js" id="htmlTag" lang="en">
 
 <head id="Head1">
+  <!-- Redirect github.io to canonical domain (fixes Google choosing wrong canonical) -->
+  <script>
+    (function() {
+      if (window.location.hostname === 'esmaeilmousavi.github.io') {
+        window.location.replace('https://esmaeil.org' + window.location.pathname + window.location.search);
+      }
+    })();
+  </script>
   <!-- Title and Meta Descriptions -->
   <title>Esmaeil Mousavi - AI/ML Researcher, Founder of navNote AI | Weber State University</title>
   <meta charset="utf-8" />
