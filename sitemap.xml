@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-    
-    <!-- Main Profile Page -->
+
+    <!-- Primary canonical -->
     <url>
         <loc>https://esmaeil.org/</loc>
-        <lastmod>2025-03-19T00:00:00+00:00</lastmod>
+        <lastmod>2026-05-21T00:00:00+00:00</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
         <image:image>
@@ -13,27 +13,6 @@
             <image:caption>Esmaeil Mousavi - AI/ML Researcher and Founder of navNote AI</image:caption>
             <image:title>Esmaeil Mousavi Profile Photo</image:title>
         </image:image>
-    </url>
-
-    <!-- Index Page -->
-    <url>
-        <loc>https://esmaeil.org/index.html</loc>
-        <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-        <image:image>
-            <image:loc>https://apps.weber.edu/wsuimages/east/Esmaeil_Mousavi(1).jpg</image:loc>
-            <image:caption>Esmaeil Mousavi - AI/ML Researcher and Founder of navNote AI</image:caption>
-            <image:title>Esmaeil Mousavi Profile Photo</image:title>
-        </image:image>
-    </url>
-
-    <!-- Alternative Index Page -->
-    <url>
-        <loc>https://esmaeil.org/iindex.html</loc>
-        <lastmod>2025-03-19T00:00:00+00:00</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
     </url>
 
 </urlset>

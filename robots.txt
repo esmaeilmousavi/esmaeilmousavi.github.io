@@ -86,7 +86,7 @@ Disallow: /
 Sitemap: https://esmaeil.org/sitemap.xml
 
 # Contact information for webmaster
-# For questions about this robots.txt file, contact: esmaeilmousavi@weber.edu
+# For questions about this robots.txt file, contact: esmaeil@navnote.ai
 
 # Additional instructions for search engines
 # The canonical URL for this site is: https://esmaeil.org
