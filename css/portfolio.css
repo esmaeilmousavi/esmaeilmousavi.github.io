@@ -300,6 +300,67 @@ section.work {
   max-width: 560px;
 }
 
+.work-main ul.work-details {
+  margin: 12px 0 8px 1.1rem;
+  max-width: 600px;
+}
+
+.work-main ul.work-details li {
+  font-size: 15px;
+  color: var(--ink-soft);
+  line-height: 1.55;
+  margin-bottom: 8px;
+}
+
+.company-story { max-width: 720px; }
+
+.company-story a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.company-story a:hover { text-decoration: underline; }
+
+.company-story-heading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+  margin: 32px 0 16px;
+  font-weight: 500;
+}
+
+.company-traction {
+  margin: 0 0 8px 1.1rem;
+  max-width: 680px;
+  list-style: none;
+  padding: 0;
+}
+
+.company-traction li {
+  position: relative;
+  padding: 14px 0 14px 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.company-traction li:first-child { border-top: 1px solid var(--rule); }
+
+.company-traction strong {
+  color: var(--ink);
+  font-weight: 500;
+}
+
+.company-story-origin {
+  margin-top: 28px;
+  font-size: 17px;
+  color: var(--ink-soft);
+  line-height: 1.65;
+}
+
 .work-meta {
   font-family: 'JetBrains Mono', monospace;
   font-size: 11px;
@@ -461,6 +522,46 @@ footer.bottom {
 
 .contact-block a:hover { color: var(--accent); }
 
+.footer-sitemap {
+  margin-top: 72px;
+  padding-top: 48px;
+  border-top: 1px solid var(--rule);
+}
+
+.footer-partners {
+  margin-top: 48px;
+  padding-top: 48px;
+  border-top: 1px solid var(--rule);
+}
+
+.footer-sitemap-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faded);
+  margin: 0 0 12px;
+}
+
+.footer-sitemap-intro {
+  font-size: 16px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 640px;
+  margin: 0 0 20px;
+}
+
+.footer-link-grid {
+  margin-top: 8px;
+}
+
+.footer-collabs img {
+  width: 100%;
+  max-width: 900px;
+  height: auto;
+  display: block;
+}
+
 .colophon {
   margin-top: 64px;
   font-family: 'JetBrains Mono', monospace;
@@ -534,6 +635,8 @@ footer.bottom {
   .contact-block { text-align: left; }
   .contact-block a { font-size: 20px; }
 
+  .footer-sitemap { margin-top: 48px; padding-top: 32px; }
+  .footer-partners { margin-top: 32px; padding-top: 32px; }
   .colophon { flex-direction: column; gap: 12px; align-items: flex-start; }
 }
 

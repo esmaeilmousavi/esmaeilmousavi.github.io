@@ -24,11 +24,12 @@ BODY = r"""<body>
         <a href="#about">About</a>
         <a href="#identity">Focus</a>
         <a href="#work">Work</a>
+        <a href="#navnote-story">navNote</a>
         <a href="#research">Research</a>
         <a href="#career">Experience</a>
         <a href="#honors">Honors</a>
-        <a href="#profiles">Profiles</a>
         <a href="#gallery">Photos</a>
+        <a href="#profiles">Links</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -58,7 +59,7 @@ BODY = r"""<body>
     </div>
     <div class="about-body">
       <p class="lead">Esmaeil is a researcher and entrepreneur working at the intersection of artificial intelligence, autonomous systems, and the physical world.</p>
-      <p>He is the cofounder of <em>navNote AI</em>, headquartered in Manhattan, building an AI-native operating system for retail’s physical operations. His research spans computer vision, reinforcement learning, 3D LiDAR perception, swarm learning, and ML-based cybersecurity · with presented work across autonomous vehicles, environmental forecasting, and acoustic systems security.</p>
+      <p>He is the founder and CEO of <em>navNote AI</em>, an agentic operations platform for retail stores and field teams · mobile execution, cloud AI agents, and a live dashboard for managers. navNote has a shipped product in market, signed paid pilots, an enterprise path with one of the nation’s largest grocery retailers, and $200K+ in angel and strategic investment. Headquarters: Manhattan (Flatiron); engineering in Silicon Slopes; Bay Area expansion underway. His research spans computer vision, reinforcement learning, 3D LiDAR perception, swarm learning, and ML-based cybersecurity · with presented work across autonomous vehicles, environmental forecasting, and acoustic systems security.</p>
       <p><em>Education:</em> Pursuing a Bachelor of Science in Computer Science at Weber State University (Ogden, UT), with coursework and lab work spanning computing, robotics, autonomous systems, and data science. More than $100,000 in combined university scholarships and external research grants has supported his degree and laboratory work.</p>
       <p>He came to the United States from Iran in 2022 to further his studies in computer science. At 17 he received an international patent through WIPO for an internal combustion engine he designed: the Two-Stroke X-Shaped Engine. He was top-ranked in Iran’s NODET national talent entrance examination.</p>
     </div>
@@ -77,8 +78,8 @@ BODY = r"""<body>
       </div>
       <div class="identity-col">
         <h3><span class="arrow">→</span>Tech Entrepreneur</h3>
-        <p>As cofounder of navNote AI, he is building intelligent systems that observe, reason, and act across in-store workflows at scale · bridging agentic AI with brick-and-mortar operations. He has raised hundreds of thousands of dollars in investment for the company alongside state innovation awards and strategic partnerships.</p>
-        <p>He also develops independent initiatives such as iTubeLabs, an AI growth platform for creators, and engages across industry partners and innovation hubs (Utah iHub, enterprise pilots, frontier AI collaborators).</p>
+        <p>As founder of navNote, Esmaeil leads AI/ML: agent orchestration, computer vision, predictive analytics, and backend systems that power in-store execution. The company replaces checklist software with agents that see shelf and task activity, decide what matters, and route work to the right person or automation · across restocking, audits, planograms, pricing, and Direct Store Delivery workflows.</p>
+        <p>Under his leadership navNote has moved from research prototype to production: live deployments with store teams, a signed first paid pilot, API access and real retail data from a top-tier national grocer for model training, $200K+ in investment (cash and strategic services), state innovation awards, and an advisory bench of executives from multi-billion-dollar companies. He also builds iTubeLabs, an independent AI platform for creators.</p>
       </div>
     </div>
   </section>
@@ -94,11 +95,22 @@ BODY = r"""<body>
         <div class="work-num">001</div>
         <div class="work-main">
           <h4><a href="https://www.navnote.ai/" target="_blank" rel="noopener noreferrer">navNote AI</a></h4>
-          <p>Cofounder. AI-native operating systems for retail’s physical workflows. Hundreds of thousands of dollars raised in investment and innovation funding.</p>
+          <p>Founder &amp; CEO · AI agents for retail store operations.</p>
+          <ul class="work-details">
+            <li>Shipped platform: native mobile app, multi-agent cloud backend, operations dashboard (cloud or on-prem)</li>
+            <li>In production at a live grocery operator; first paid pilot contract signed</li>
+            <li>Enterprise track with a Fortune-scale national grocer (API access and production training data)</li>
+            <li>$200K+ from angels and strategic partners; advisory leaders from multi-billion-dollar companies</li>
+          </ul>
+          <div class="pub-inline-links">
+            <a href="https://www.navnote.ai/product" target="_blank" rel="noopener noreferrer">Product</a>
+            <a href="https://www.navnote.ai/contact" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="https://www.ihubutah.org/" target="_blank" rel="noopener noreferrer">iHub Utah</a>
+          </div>
         </div>
         <div class="work-meta">
           <span>2025 · Present</span>
-          <span class="tag">Manhattan</span>
+          <span class="tag">NYC · UT · CA</span>
         </div>
       </div>
       <div class="work-item">
@@ -163,6 +175,26 @@ BODY = r"""<body>
     </div>
   </section>
 
+  <section class="extra-section" id="navnote-story">
+    <div class="extra-inner">
+      <div class="section-label"><span class="num">·</span>navNote</div>
+      <div class="about-body company-story">
+        <p class="lead">Agentic AI for retail execution · not another dashboard.</p>
+        <p>navNote is a three-layer operations system: a mobile app for store and field teams (audits, restocking, planograms, pricing, shift tasks with photos and voice instead of forms), cloud AI agents that reason over live store activity and trigger work or assignments, and a web dashboard where managers monitor and act across locations in real time.</p>
+        <h4 class="company-story-heading">Traction</h4>
+        <ul class="company-traction">
+          <li><strong>Product in market.</strong> Full stack shipped and deployed · iOS and Android, agent backend, and manager dashboard, with on-prem options for regulated retailers.</li>
+          <li><strong>Paying customer.</strong> Live grocery deployment with associates and managers on daily workflows; first commercial pilot contract signed.</li>
+          <li><strong>Enterprise wedge.</strong> One of the largest U.S. grocery retailers providing API access and production data to train and evaluate models · pilot conversion underway through standard enterprise security and legal review.</li>
+          <li><strong>Capital &amp; advisors.</strong> $200K+ raised from angels and strategic partners (cash and in-kind services), plus state innovation awards; advisory board includes leaders from multi-billion-dollar operators.</li>
+          <li><strong>Partnerships.</strong> Enterprise edge infrastructure, frontier AI platforms, and Utah’s flagship innovation hub · active pipeline across regional grocers, international retail, and Direct Store Delivery suppliers.</li>
+          <li><strong>Footprint.</strong> HQ at <a href="https://maps.google.com/?q=60+Madison+Avenue+New+York+NY+10010">60 Madison Avenue, Flatiron, Manhattan</a> · engineering in Silicon Slopes · Bay Area presence for West Coast retail.</li>
+        </ul>
+        <p class="company-story-origin">Esmaeil founded navNote from applied autonomous-systems and perception research, with retail GTM shaped by mentorship from the president of a major Kroger subsidiary and product engineering led by Niklas Kennedy (enterprise systems at IBM). The underlying platform also extends to adjacent physical-operations markets including supply chain, manufacturing, and field sales.</p>
+      </div>
+    </div>
+  </section>
+
   <section class="research" id="research">
     <div class="section-label">
       <span class="num">/ 04</span>
@@ -201,7 +233,8 @@ BODY = r"""<body>
       </div>
       <div>
         <ul class="honors-list">
-          <li><div class="honor-date">2025</div><div class="honor-body"><strong>navNote AI · investment</strong> · Hundreds of thousands of dollars raised in investment and innovation capital for the company.</div></li>
+          <li><div class="honor-date">2025–2026</div><div class="honor-body"><strong>navNote AI · commercial traction</strong> · Production deployment, first paid pilot, enterprise grocer data partnership, $200K+ investment.</div></li>
+          <li><div class="honor-date">2024–2025</div><div class="honor-body"><strong>iHub Utah · Weber MicroFund</strong> · Innovation hub residency and Weber entrepreneurial awards ($10K+ non-dilutive).</div></li>
           <li><div class="honor-date">2022–2026</div><div class="honor-body"><strong>Scholarships &amp; research grants</strong> · More than $100,000 in combined internal and external awards supporting education and laboratory research.</div></li>
           <li><div class="honor-date">2014–2020</div><div class="honor-body"><strong>NODET (Iran)</strong> · top-ranked national talent entrance examination.</div></li>
           <li><div class="honor-date">2021 · Present</div><div class="honor-body"><strong>Harvard SEAS Computer Science Colloquium</strong> member.</div></li>
@@ -229,9 +262,10 @@ BODY = r"""<body>
           <h5>Researcher · AI/ML &amp; Backend Systems</h5>
           <div class="cv-meta">Weber State University · May 2025–present</div>
           <ul>
-            <li>Faculty-mentored applied research through the navNote platform for enterprise field operations.</li>
+            <li>Faculty-mentored applied research through navNote for enterprise field operations (truck-to-shelf execution).</li>
             <li>Large-scale image understanding, predictive analytics, autonomous task orchestration, and scalable backend architectures.</li>
-            <li>Raised hundreds of thousands of dollars in investment and innovation awards as navNote cofounder.</li>
+            <li>Led navNote from research prototype to shipped product, live store deployment, and first paid pilot.</li>
+            <li>Secured $200K+ in angel and strategic investment and enterprise grocer API partnership for production AI training.</li>
           </ul>
         </article>
         <article class="cv-role">
@@ -277,60 +311,9 @@ BODY = r"""<body>
     </div>
   </section>
 
-  <section class="extra-section" id="profiles">
-    <div class="extra-inner">
-      <div class="section-label"><span class="num">/ 07</span>Professional<br>profiles</div>
-      <div>
-        <p style="font-size:16px;color:var(--ink-soft);margin-bottom:8px;line-height:1.6;">
-          Verified profiles and canonical links for navNote AI, research IDs, patents, and institutional references.
-        </p>
-        <div class="link-grid">
-          <a href="https://www.linkedin.com/in/mousavi-ai/">LinkedIn</a>
-          <a href="https://twitter.com/thisisEsmaeil">X / Twitter (@thisisEsmaeil)</a>
-          <a href="https://github.com/esmaeilmousavi">GitHub · esmaeilmousavi</a>
-          <a href="https://github.com/mousaviasl">GitHub · mousaviasl</a>
-          <a href="https://scholar.google.com/citations?hl=en&amp;user=lZQif9oAAAAJ">Google Scholar</a>
-          <a href="https://orcid.org/0000-0002-2483-4275">ORCID</a>
-          <a href="https://www.wikidata.org/wiki/Q131101184">Wikidata</a>
-          <a href="https://open.mit.edu/profile/01G7XMK3A48PDBDGVNMSTJWQTN/">MIT Open profile</a>
-          <a href="https://g.co/kgs/7GbuQHr">Google Knowledge shortcut</a>
-          <a href="https://www.crunchbase.com/person/esmaeil-mousavi">Crunchbase · person</a>
-          <a href="https://www.crunchbase.com/organization/navnote">Crunchbase · navNote</a>
-          <a href="https://www.linkedin.com/company/navnote">LinkedIn · navNote</a>
-          <a href="https://www.ihubutah.org/directory/people/details/esmaeil+mousavi/r/recHYS1kzup6X3Eyx">Utah Innovation Hub portrait</a>
-          <a href="/documents/Esmaeil-Mousavi-CV.pdf">Curriculum vitae (PDF)</a>
-          <a href="https://www.navnote.ai/">navNote AI</a>
-          <a href="https://www.navnote.ai/contact">navNote · contact</a>
-          <a href="https://itubelabs.com">iTubeLabs</a>
-          <a href="https://ncwqr.org/">National Center for Water Quality Research</a>
-          <a href="https://www.ibm.com/z">IBM Z Systems</a>
-          <a href="https://open.mit.edu/">MIT Open Learning</a>
-          <a href="https://www.acm.org/">ACM</a>
-          <a href="https://www.perplexity.ai/">Perplexity</a>
-          <a href="https://www.mimik.com/">mimik Technologies</a>
-          <a href="https://calendly.com/esmaeilmousavi-weber">Calendly</a>
-          <a href="https://sites.google.com/mail.weber.edu/esmaeil/contact-esmaeil/contact-info">Weber dossier · contact archive</a>
-          <a href="https://sites.google.com/mail.weber.edu/esmaeil/pictures">Weber dossier · photos</a>
-          <a href="https://sites.google.com/mail.weber.edu/esmaeil/">Weber dossier · legacy site root</a>
-          <a href="https://www.weber.edu/computing">Weber · School of Computing</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <section class="extra-section">
     <div class="extra-inner">
-      <div class="section-label"><span class="num">/ 08</span>Partners</div>
-      <div class="collabs-wrap">
-        <p style="margin-bottom:12px;color:var(--ink-soft);font-size:17px;">Institutions &amp; sponsors.</p>
-        <img alt="Collaborators collage" src="images/Collabs.png" loading="lazy" decoding="async" />
-      </div>
-    </div>
-  </section>
-
-  <section class="extra-section">
-    <div class="extra-inner">
-      <div class="section-label"><span class="num">/ 09</span>Addresses</div>
+      <div class="section-label"><span class="num">/ 07</span>Addresses</div>
       <div>
         <div class="address-block">
           <strong>Manhattan · navNote AI HQ</strong>
@@ -350,7 +333,7 @@ BODY = r"""<body>
 
   <section class="extra-section" id="speaking">
     <div class="extra-inner">
-      <div class="section-label"><span class="num">/ 10</span>Speaking &amp;<br>Programs</div>
+      <div class="section-label"><span class="num">/ 08</span>Speaking &amp;<br>Programs</div>
       <div>
         <div class="speaking-row"><div class="speak-date">November 2023</div><div class="speak-body">Organizer &amp; panelist · Weber State AI &amp; Autonomous Vehicles Symposium.</div></div>
         <div class="speaking-row"><div class="speak-date">October 2023</div><div class="speak-body">VIP delegate · Utah AI leadership summit hosted at Pluralsight Navigate / Grand America Hotel.</div></div>
@@ -364,7 +347,7 @@ BODY = r"""<body>
 
   <section class="extra-section" id="gallery">
     <div class="extra-inner">
-      <div class="section-label"><span class="num">/ 11</span>Photo gallery</div>
+      <div class="section-label"><span class="num">/ 09</span>Photo gallery</div>
       <div>
         <p style="color:var(--ink-soft);font-size:17px;">Documenting research travel, prototyping sprints, and collaborations.</p>
         <div class="gallery-grid-port">
@@ -388,9 +371,52 @@ BODY = r"""<body>
         <a href="https://github.com/esmaeilmousavi">GitHub</a>
       </div>
     </div>
+
+    <div class="footer-sitemap" id="profiles">
+      <p class="footer-sitemap-label">Professional profiles</p>
+      <p class="footer-sitemap-intro">Verified profiles and canonical links for navNote AI, research IDs, patents, and institutional references.</p>
+      <nav class="link-grid footer-link-grid" aria-label="Professional profiles and external links">
+        <a href="https://www.linkedin.com/in/mousavi-ai/">LinkedIn</a>
+        <a href="https://twitter.com/thisisEsmaeil">X / Twitter (@thisisEsmaeil)</a>
+        <a href="https://github.com/esmaeilmousavi">GitHub · esmaeilmousavi</a>
+        <a href="https://github.com/mousaviasl">GitHub · mousaviasl</a>
+        <a href="https://scholar.google.com/citations?hl=en&amp;user=lZQif9oAAAAJ">Google Scholar</a>
+        <a href="https://orcid.org/0000-0002-2483-4275">ORCID</a>
+        <a href="https://www.wikidata.org/wiki/Q131101184">Wikidata</a>
+        <a href="https://open.mit.edu/profile/01G7XMK3A48PDBDGVNMSTJWQTN/">MIT Open profile</a>
+        <a href="https://g.co/kgs/7GbuQHr">Google Knowledge shortcut</a>
+        <a href="https://www.crunchbase.com/person/esmaeil-mousavi">Crunchbase · person</a>
+        <a href="https://www.crunchbase.com/organization/navnote">Crunchbase · navNote</a>
+        <a href="https://www.linkedin.com/company/navnote">LinkedIn · navNote</a>
+        <a href="https://www.ihubutah.org/directory/people/details/esmaeil+mousavi/r/recHYS1kzup6X3Eyx">Utah Innovation Hub portrait</a>
+        <a href="/documents/Esmaeil-Mousavi-CV.pdf">Curriculum vitae (PDF)</a>
+        <a href="https://www.navnote.ai/">navNote AI</a>
+        <a href="https://www.navnote.ai/contact">navNote · contact</a>
+        <a href="https://itubelabs.com">iTubeLabs</a>
+        <a href="https://ncwqr.org/">National Center for Water Quality Research</a>
+        <a href="https://www.ibm.com/z">IBM Z Systems</a>
+        <a href="https://open.mit.edu/">MIT Open Learning</a>
+        <a href="https://www.acm.org/">ACM</a>
+        <a href="https://www.perplexity.ai/">Perplexity</a>
+        <a href="https://www.mimik.com/">mimik Technologies</a>
+        <a href="https://calendly.com/esmaeilmousavi-weber">Calendly</a>
+        <a href="https://sites.google.com/mail.weber.edu/esmaeil/contact-esmaeil/contact-info">Weber dossier · contact archive</a>
+        <a href="https://sites.google.com/mail.weber.edu/esmaeil/pictures">Weber dossier · photos</a>
+        <a href="https://sites.google.com/mail.weber.edu/esmaeil/">Weber dossier · legacy site root</a>
+        <a href="https://www.weber.edu/computing">Weber · School of Computing</a>
+      </nav>
+    </div>
+
+    <div class="footer-partners" id="partners">
+      <p class="footer-sitemap-label">Partners</p>
+      <p class="footer-sitemap-intro">Technology, retail, and innovation partners supporting navNote’s enterprise and go-to-market work.</p>
+      <div class="collabs-wrap footer-collabs">
+        <img alt="Collaborators collage" src="images/Collabs.png" loading="lazy" decoding="async" />
+      </div>
+    </div>
+
     <div class="colophon">
-      <span>© Esmaeil Mousavi · Manhattan · Provo · Ogden</span>
-      <span>New studio skin · Feb 2026</span>
+      <span>© Esmaeil Mousavi · Manhattan, Silicon Valley, Silicon Slopes</span>
     </div>
   </footer>
 
