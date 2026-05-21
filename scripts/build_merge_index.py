@@ -1,12 +1,11 @@
 # Assembles portfolio body + scraped head fragment.
-# Run after: tmp/newhead.html + tmp/gallery_frag.html exist
+# Run after: tmp/newhead.html exists
 #   python3 scripts/build_merge_index.py
 
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 HEAD = Path("/tmp/newhead.html").read_text(encoding="utf-8")
-GALLERY = Path("/tmp/gallery_frag.html").read_text(encoding="utf-8")
 
 BODY = r"""<body>
 
@@ -59,9 +58,9 @@ BODY = r"""<body>
     </div>
     <div class="about-body">
       <p class="lead">Esmaeil is a researcher and entrepreneur working at the intersection of artificial intelligence, autonomous systems, and the physical world.</p>
-      <p>He is the founder and CEO of <em>navNote AI</em>, an agentic operations platform for retail stores and field teams · mobile execution, cloud AI agents, and a live dashboard for managers. navNote has a shipped product in market, signed paid pilots, an enterprise path with one of the nation’s largest grocery retailers, and has raised hundreds of thousands of dollars in early-stage angel and strategic investment. Headquarters: Manhattan (Flatiron); engineering in Silicon Slopes; Bay Area expansion underway. His research spans computer vision, reinforcement learning, 3D LiDAR perception, swarm learning, and ML-based cybersecurity · with presented work across autonomous vehicles, environmental forecasting, and acoustic systems security.</p>
+      <p>He is the founder of <em>navNote AI</em>, an agentic operations platform for retail’s physical workflows. His research spans computer vision, reinforcement learning, 3D LiDAR perception, swarm learning, and ML-based cybersecurity · with presented work across autonomous vehicles, environmental forecasting, and acoustic systems security.</p>
       <p><em>Education:</em> Pursuing a Bachelor of Science in Computer Science at Weber State University (Ogden, UT), with coursework and lab work spanning computing, robotics, autonomous systems, and data science. More than $100,000 in combined university scholarships and external research grants has supported his degree and laboratory work.</p>
-      <p>He came to the United States from Iran in 2022 to further his studies in computer science. At 17 he received an international patent through WIPO for an internal combustion engine he designed: the Two-Stroke X-Shaped Engine. He was top-ranked in Iran’s NODET national talent entrance examination.</p>
+      <p>At 17 he received an international patent through WIPO for an internal combustion engine he designed: the Two-Stroke X-Shaped Engine. He was top-ranked in Iran’s NODET national talent entrance examination.</p>
     </div>
   </section>
 
@@ -78,8 +77,8 @@ BODY = r"""<body>
       </div>
       <div class="identity-col">
         <h3><span class="arrow">→</span>Tech Entrepreneur</h3>
-        <p>As founder of navNote, Esmaeil leads AI/ML: agent orchestration, computer vision, predictive analytics, and backend systems that power in-store execution. The company replaces checklist software with agents that see shelf and task activity, decide what matters, and route work to the right person or automation · across restocking, audits, planograms, pricing, and Direct Store Delivery workflows.</p>
-        <p>Under his leadership navNote has moved from research prototype to production: live deployments with store teams, a signed first paid pilot, API access and real retail data from a top-tier national grocer for model training, raised hundreds of thousands of dollars in early-stage investment (cash and strategic services), state innovation awards, and an advisory bench of executives from multi-billion-dollar companies. He also builds iTubeLabs, an independent AI platform for creators.</p>
+        <p>Esmaeil founded <em>navNote</em> to bring autonomous-systems thinking into retail’s physical layer: software that sees what is happening on the floor, reasons about what should happen next, and moves work through mobile, cloud agents, and a live operations dashboard. The company is headquartered in Manhattan’s Flatiron District, with engineering in Silicon Slopes and a growing Bay Area presence.</p>
+        <p>navNote is in production with live store deployments, strategic partnerships across major retailers and Fortune 500 technology collaborators, and an advisory circle of leaders from multi-billion-dollar operators. Esmaeil leads AI/ML across agents, computer vision, and backend orchestration; he has raised hundreds of thousands of dollars in early-stage investment. Retail mentorship from the president of a major Kroger subsidiary shaped the company’s focus on in-store execution and Direct Store Delivery.</p>
       </div>
     </div>
   </section>
@@ -95,12 +94,11 @@ BODY = r"""<body>
         <div class="work-num">001</div>
         <div class="work-main">
           <h4><a href="https://www.navnote.ai/" target="_blank" rel="noopener noreferrer">navNote AI</a></h4>
-          <p>Founder &amp; CEO · AI agents for retail store operations.</p>
+          <p>Founder · AI agents for retail store operations.</p>
           <ul class="work-details">
-            <li>Shipped platform: native mobile app, multi-agent cloud backend, operations dashboard (cloud or on-prem)</li>
-            <li>In production at a live grocery operator; first paid pilot contract signed</li>
-            <li>Enterprise track with a Fortune-scale national grocer (API access and production training data)</li>
-            <li>Raised hundreds of thousands of dollars in early-stage investment from angels and strategic partners; advisory leaders from multi-billion-dollar companies</li>
+            <li>Shipped platform: native mobile, multi-agent cloud backend, and operations dashboard (cloud or on-prem)</li>
+            <li>Live deployments with retail operators; partnerships across national grocers and Fortune 500 technology companies</li>
+            <li>Raised hundreds of thousands of dollars in early-stage investment; advisors from multi-billion-dollar retail and technology businesses</li>
           </ul>
           <div class="pub-inline-links">
             <a href="https://www.navnote.ai/product" target="_blank" rel="noopener noreferrer">Product</a>
@@ -179,18 +177,18 @@ BODY = r"""<body>
     <div class="extra-inner">
       <div class="section-label"><span class="num">·</span>navNote</div>
       <div class="about-body company-story">
-        <p class="lead">Agentic AI for retail execution · not another dashboard.</p>
-        <p>navNote is a three-layer operations system: a mobile app for store and field teams (audits, restocking, planograms, pricing, shift tasks with photos and voice instead of forms), cloud AI agents that reason over live store activity and trigger work or assignments, and a web dashboard where managers monitor and act across locations in real time.</p>
-        <h4 class="company-story-heading">Traction</h4>
+        <p class="lead">Agentic AI for retail execution · built for the physical world, not another dashboard.</p>
+        <p>navNote connects store teams on mobile, AI agents in the cloud, and a live dashboard for leaders. The system interprets photos, tasks, and shelf activity in real time, then assigns or executes work across audits, restocking, planograms, pricing, and field operations.</p>
+        <h4 class="company-story-heading">Company</h4>
         <ul class="company-traction">
-          <li><strong>Product in market.</strong> Full stack shipped and deployed · iOS and Android, agent backend, and manager dashboard, with on-prem options for regulated retailers.</li>
-          <li><strong>Paying customer.</strong> Live grocery deployment with associates and managers on daily workflows; first commercial pilot contract signed.</li>
-          <li><strong>Enterprise wedge.</strong> One of the largest U.S. grocery retailers providing API access and production data to train and evaluate models · pilot conversion underway through standard enterprise security and legal review.</li>
-          <li><strong>Capital &amp; advisors.</strong> Raised hundreds of thousands of dollars in early-stage investment from angels and strategic partners (cash and in-kind services), plus state innovation awards; advisory board includes leaders from multi-billion-dollar operators.</li>
-          <li><strong>Partnerships.</strong> Enterprise edge infrastructure, frontier AI platforms, and Utah’s flagship innovation hub · active pipeline across regional grocers, international retail, and Direct Store Delivery suppliers.</li>
-          <li><strong>Footprint.</strong> HQ at <a href="https://maps.google.com/?q=60+Madison+Avenue+New+York+NY+10010">60 Madison Avenue, Flatiron, Manhattan</a> · engineering in Silicon Slopes · Bay Area presence for West Coast retail.</li>
+          <li><strong>Product.</strong> Full-stack platform in market · iOS and Android, agent backend, operations dashboard, with on-prem deployment for enterprise security requirements.</li>
+          <li><strong>Deployments.</strong> Live rollouts with retail operators; teams using navNote daily across in-store execution workflows.</li>
+          <li><strong>Partnerships.</strong> Collaborations with major retailers, Fortune 500 technology companies, enterprise infrastructure partners, and frontier AI platforms · plus residency at Utah’s flagship innovation hub.</li>
+          <li><strong>Enterprise.</strong> Strategic work with one of the nation’s largest grocery organizations on production data and API integrations for model training at scale.</li>
+          <li><strong>Capital.</strong> Hundreds of thousands of dollars in early-stage investment; Weber State MicroFund + State Award ($10K combined non-dilutive); advisors from multi-billion-dollar retail and technology operators.</li>
+          <li><strong>Presence.</strong> HQ at <a href="https://maps.google.com/?q=60+Madison+Avenue+New+York+NY+10010">60 Madison Avenue, Flatiron, Manhattan</a> · engineering in Silicon Slopes · Bay Area expansion.</li>
         </ul>
-        <p class="company-story-origin">Esmaeil founded navNote from applied autonomous-systems and perception research, with retail GTM shaped by mentorship from the president of a major Kroger subsidiary and product engineering led by Niklas Kennedy (enterprise systems at IBM). The underlying platform also extends to adjacent physical-operations markets including supply chain, manufacturing, and field sales.</p>
+        <p class="company-story-origin">Built from Weber State research into autonomous perception and field operations, with product engineering from Niklas Kennedy (IBM enterprise systems) and go-to-market guidance from the president of a major Kroger subsidiary. The platform extends to warehousing, manufacturing, and broader physical-operations markets.</p>
       </div>
     </div>
   </section>
@@ -233,8 +231,8 @@ BODY = r"""<body>
       </div>
       <div>
         <ul class="honors-list">
-          <li><div class="honor-date">2025–2026</div><div class="honor-body"><strong>navNote AI · commercial traction</strong> · Production deployment, first paid pilot, enterprise grocer data partnership, hundreds of thousands of dollars in early-stage investment.</div></li>
-          <li><div class="honor-date">2024–2025</div><div class="honor-body"><strong>iHub Utah · Weber MicroFund</strong> · Innovation hub residency and Weber entrepreneurial awards ($10K+ non-dilutive).</div></li>
+          <li><div class="honor-date">2025–2026</div><div class="honor-body"><strong>navNote AI</strong> · Live deployments, Fortune 500 partnerships, national retail collaborations, hundreds of thousands of dollars in early-stage investment.</div></li>
+          <li><div class="honor-date">2024–2025</div><div class="honor-body"><strong>iHub Utah</strong> · Innovation hub residency. <strong>Weber State MicroFund + State Award</strong> · $10K combined non-dilutive grants.</div></li>
           <li><div class="honor-date">2022–2026</div><div class="honor-body"><strong>Scholarships &amp; research grants</strong> · More than $100,000 in combined internal and external awards supporting education and laboratory research.</div></li>
           <li><div class="honor-date">2014–2020</div><div class="honor-body"><strong>NODET (Iran)</strong> · top-ranked national talent entrance examination.</div></li>
           <li><div class="honor-date">2021 · Present</div><div class="honor-body"><strong>Harvard SEAS Computer Science Colloquium</strong> member.</div></li>
@@ -264,8 +262,8 @@ BODY = r"""<body>
           <ul>
             <li>Faculty-mentored applied research through navNote for enterprise field operations (truck-to-shelf execution).</li>
             <li>Large-scale image understanding, predictive analytics, autonomous task orchestration, and scalable backend architectures.</li>
-            <li>Led navNote from research prototype to shipped product, live store deployment, and first paid pilot.</li>
-            <li>Raised hundreds of thousands of dollars in early-stage angel and strategic investment; secured enterprise grocer API partnership for production AI training.</li>
+            <li>Built navNote from university research into a shipped platform with live retail deployments and Fortune 500 technology partnerships.</li>
+            <li>Raised hundreds of thousands of dollars in early-stage investment; enterprise data partnerships with a national grocery organization.</li>
           </ul>
         </article>
         <article class="cv-role">
@@ -345,14 +343,114 @@ BODY = r"""<body>
     </div>
   </section>
 
-  <section class="extra-section" id="gallery">
-    <div class="extra-inner">
+  <section class="extra-section gallery-section" id="gallery">
+    <div class="extra-inner gallery-section-head">
       <div class="section-label"><span class="num">/ 09</span>Photo gallery</div>
-      <div>
-        <p style="color:var(--ink-soft);font-size:17px;">Documenting research travel, prototyping sprints, and collaborations.</p>
-        <div class="gallery-grid-port">
-{gallery}
+      <p class="gallery-intro">Research, prototypes, and collaborations.</p>
+    </div>
+
+    <div class="gallery-stage">
+        <div class="gallery-marquee" aria-label="Scrolling photo gallery">
+          <div class="gallery-marquee-edge gallery-marquee-edge--left" aria-hidden="true"></div>
+          <div class="gallery-marquee-edge gallery-marquee-edge--right" aria-hidden="true"></div>
+          <div class="gallery-marquee-row-wrap">
+            <div class="gallery-marquee-track gallery-marquee-track--forward">
+          <ul class="gallery-marquee-group" role="list">
+            <li><figure class="gallery-card"><img src="images/IMG_4505.jpg" alt="Esmaeil Mousavi — photo 1" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4506.jpg" alt="Esmaeil Mousavi — photo 2" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4507.jpg" alt="Esmaeil Mousavi — photo 3" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4509.jpg" alt="Esmaeil Mousavi — photo 4" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4510.jpg" alt="Esmaeil Mousavi — photo 5" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4511.jpg" alt="Esmaeil Mousavi — photo 6" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4512.jpg" alt="Esmaeil Mousavi — photo 7" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4514.jpg" alt="Esmaeil Mousavi — photo 8" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4515.jpg" alt="Esmaeil Mousavi — photo 9" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4517.jpg" alt="Esmaeil Mousavi — photo 10" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4518.jpg" alt="Esmaeil Mousavi — photo 11" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi — photo 12" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4521.jpg" alt="Esmaeil Mousavi — photo 13" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
+          </ul>
+          <ul class="gallery-marquee-group" aria-hidden="true">
+            <li><figure class="gallery-card"><img src="images/IMG_4505.jpg" alt="Esmaeil Mousavi — photo 1" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4506.jpg" alt="Esmaeil Mousavi — photo 2" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4507.jpg" alt="Esmaeil Mousavi — photo 3" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4509.jpg" alt="Esmaeil Mousavi — photo 4" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4510.jpg" alt="Esmaeil Mousavi — photo 5" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4511.jpg" alt="Esmaeil Mousavi — photo 6" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4512.jpg" alt="Esmaeil Mousavi — photo 7" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4514.jpg" alt="Esmaeil Mousavi — photo 8" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4515.jpg" alt="Esmaeil Mousavi — photo 9" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4517.jpg" alt="Esmaeil Mousavi — photo 10" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4518.jpg" alt="Esmaeil Mousavi — photo 11" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi — photo 12" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4521.jpg" alt="Esmaeil Mousavi — photo 13" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
+          </ul>
+            </div>
+          </div>
+          <div class="gallery-marquee-row-wrap gallery-marquee-row-wrap--offset">
+            <div class="gallery-marquee-track gallery-marquee-track--reverse">
+          <ul class="gallery-marquee-group" role="list">
+            <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 1" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi — photo 2" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi — photo 3" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4517.jpg" alt="Esmaeil Mousavi — photo 4" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4514.jpg" alt="Esmaeil Mousavi — photo 5" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4511.jpg" alt="Esmaeil Mousavi — photo 6" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4509.jpg" alt="Esmaeil Mousavi — photo 7" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4506.jpg" alt="Esmaeil Mousavi — photo 8" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi — photo 9" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4521.jpg" alt="Esmaeil Mousavi — photo 10" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4518.jpg" alt="Esmaeil Mousavi — photo 11" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4515.jpg" alt="Esmaeil Mousavi — photo 12" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4512.jpg" alt="Esmaeil Mousavi — photo 13" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4510.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4507.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4505.jpg" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
+          </ul>
+          <ul class="gallery-marquee-group" aria-hidden="true">
+            <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 1" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi — photo 2" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi — photo 3" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4517.jpg" alt="Esmaeil Mousavi — photo 4" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4514.jpg" alt="Esmaeil Mousavi — photo 5" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4511.jpg" alt="Esmaeil Mousavi — photo 6" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4509.jpg" alt="Esmaeil Mousavi — photo 7" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4506.jpg" alt="Esmaeil Mousavi — photo 8" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi — photo 9" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4521.jpg" alt="Esmaeil Mousavi — photo 10" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4518.jpg" alt="Esmaeil Mousavi — photo 11" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4515.jpg" alt="Esmaeil Mousavi — photo 12" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4512.jpg" alt="Esmaeil Mousavi — photo 13" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4510.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4507.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/IMG_4505.jpg" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
+          </ul>
+            </div>
+          </div>
         </div>
+      <div class="gallery-grid-static" role="list" aria-label="Photo gallery grid">
+          <figure class="gallery-static-card"><img src="images/IMG_4505.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4506.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4507.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4509.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4510.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4511.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4512.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4514.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4515.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4517.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4518.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4521.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
       </div>
     </div>
   </section>
@@ -428,9 +526,7 @@ BODY = r"""<body>
 
 
 def main() -> None:
-    spaced = "\n".join(("      " + ln if ln.strip() else "") for ln in GALLERY.splitlines())
-    assembled = BODY.replace("{gallery}", spaced)
-    html = HEAD + assembled
+    html = HEAD + BODY
     (REPO / "index.html").write_text(html, encoding="utf-8")
     print("Wrote index.html,", len(html), "chars")
 

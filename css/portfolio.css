@@ -638,6 +638,14 @@ footer.bottom {
   .footer-sitemap { margin-top: 48px; padding-top: 32px; }
   .footer-partners { margin-top: 32px; padding-top: 32px; }
   .colophon { flex-direction: column; gap: 12px; align-items: flex-start; }
+
+  .gallery-section-head {
+    display: block;
+  }
+
+  .gallery-intro {
+    margin-top: 12px;
+  }
 }
 
 /* Merged-from-legacy additions */
@@ -678,24 +686,180 @@ footer.bottom {
   font-size: 11px;
   text-decoration: none;
 }
-.gallery-grid-port {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
-  gap: 14px;
-  margin-top: 36px;
+/* ===== GALLERY ===== */
+.gallery-section {
+  padding-bottom: 96px;
 }
-.gallery-grid-port figure {
+
+.gallery-section-head {
+  margin-bottom: 8px;
+}
+
+.gallery-intro {
+  font-size: 17px;
+  color: var(--ink-soft);
+  line-height: 1.6;
+  max-width: 520px;
   margin: 0;
+}
+
+.gallery-stage {
+  margin-top: 40px;
+}
+
+.gallery-marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(50% - 50vw);
+  overflow: hidden;
+  padding: 4px 0 8px;
+}
+
+.gallery-marquee-edge {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: min(120px, 12vw);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.gallery-marquee-edge--left {
+  left: 0;
+  background: linear-gradient(to right, var(--paper) 0%, transparent 100%);
+}
+
+.gallery-marquee-edge--right {
+  right: 0;
+  background: linear-gradient(to left, var(--paper) 0%, transparent 100%);
+}
+
+.gallery-marquee-row-wrap {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.gallery-marquee-row-wrap--offset {
+  margin-top: 4px;
+}
+
+.gallery-marquee-track {
+  display: flex;
+  width: max-content;
+  will-change: transform;
+}
+
+.gallery-marquee-track--forward {
+  animation: gallery-marquee-forward 70s linear infinite;
+}
+
+.gallery-marquee-track--reverse {
+  animation: gallery-marquee-reverse 82s linear infinite;
+}
+
+.gallery-marquee:hover .gallery-marquee-track {
+  animation-play-state: paused;
+}
+
+.gallery-marquee-group {
+  display: flex;
+  gap: 18px;
+  list-style: none;
+  margin: 0;
+  padding: 0 9px;
+}
+
+.gallery-card {
+  margin: 0;
+  flex: 0 0 auto;
+  width: clamp(200px, 22vw, 280px);
   aspect-ratio: 4 / 5;
   overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid var(--rule);
   background: var(--paper-deep);
-  border-radius: 2px;
+  box-shadow: 0 1px 0 rgba(58, 52, 43, 0.04);
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.45s ease, border-color 0.35s ease;
 }
-.gallery-grid-port img {
+
+.gallery-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.gallery-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(196, 92, 38, 0.35);
+  box-shadow: 0 20px 48px rgba(58, 52, 43, 0.12);
+}
+
+.gallery-card:hover img {
+  transform: scale(1.04);
+}
+
+@keyframes gallery-marquee-forward {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes gallery-marquee-reverse {
+  from { transform: translateX(-50%); }
+  to { transform: translateX(0); }
+}
+
+.gallery-grid-static {
+  display: none;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+  margin-top: 8px;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-static-card {
+  margin: 0;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid var(--rule);
+  background: var(--paper-deep);
+}
+
+.gallery-static-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gallery-marquee {
+    display: none;
+  }
+
+  .gallery-grid-static {
+    display: grid;
+  }
+}
+
+@media (max-width: 800px) {
+  .gallery-card {
+    width: clamp(160px, 42vw, 220px);
+  }
+
+  .gallery-marquee-track--forward {
+    animation-duration: 50s;
+  }
+
+  .gallery-marquee-track--reverse {
+    animation-duration: 58s;
+  }
 }
 
 .link-grid {
