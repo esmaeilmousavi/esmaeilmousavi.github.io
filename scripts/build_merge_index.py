@@ -369,7 +369,7 @@ BODY = r"""<body>
             <li><figure class="gallery-card"><img src="images/IMG_4518.jpg" alt="Esmaeil Mousavi — photo 11" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi — photo 12" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4521.jpg" alt="Esmaeil Mousavi — photo 13" loading="lazy" decoding="async" /></figure></li>
-            <li><figure class="gallery-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/Esmaeil_Mousavi_OpenAI_navNote.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
           </ul>
@@ -387,7 +387,7 @@ BODY = r"""<body>
             <li><figure class="gallery-card"><img src="images/IMG_4518.jpg" alt="Esmaeil Mousavi — photo 11" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi — photo 12" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4521.jpg" alt="Esmaeil Mousavi — photo 13" loading="lazy" decoding="async" /></figure></li>
-            <li><figure class="gallery-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/Esmaeil_Mousavi_OpenAI_navNote.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
           </ul>
@@ -397,7 +397,7 @@ BODY = r"""<body>
             <div class="gallery-marquee-track gallery-marquee-track--reverse">
           <ul class="gallery-marquee-group" role="list">
             <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 1" loading="lazy" decoding="async" /></figure></li>
-            <li><figure class="gallery-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi — photo 2" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/Esmaeil_Mousavi_OpenAI_navNote.jpg" alt="Esmaeil Mousavi — photo 2" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi — photo 3" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4517.jpg" alt="Esmaeil Mousavi — photo 4" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4514.jpg" alt="Esmaeil Mousavi — photo 5" loading="lazy" decoding="async" /></figure></li>
@@ -415,7 +415,7 @@ BODY = r"""<body>
           </ul>
           <ul class="gallery-marquee-group" aria-hidden="true">
             <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 1" loading="lazy" decoding="async" /></figure></li>
-            <li><figure class="gallery-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi — photo 2" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/Esmaeil_Mousavi_OpenAI_navNote.jpg" alt="Esmaeil Mousavi — photo 2" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi — photo 3" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4517.jpg" alt="Esmaeil Mousavi — photo 4" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4514.jpg" alt="Esmaeil Mousavi — photo 5" loading="lazy" decoding="async" /></figure></li>
@@ -448,7 +448,7 @@ BODY = r"""<body>
           <figure class="gallery-static-card"><img src="images/IMG_4518.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
           <figure class="gallery-static-card"><img src="images/IMG_4520.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
           <figure class="gallery-static-card"><img src="images/IMG_4521.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
-          <figure class="gallery-static-card"><img src="images/IMG_4522.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/Esmaeil_Mousavi_OpenAI_navNote.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
           <figure class="gallery-static-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
           <figure class="gallery-static-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
       </div>

@@ -150,7 +150,7 @@
       'IMG_4505.jpg', 'IMG_4506.jpg', 'IMG_4507.jpg', 'IMG_4509.jpg',
       'IMG_4510.jpg', 'IMG_4511.jpg', 'IMG_4512.jpg', 'IMG_4514.jpg',
       'IMG_4515.jpg', 'IMG_4517.jpg', 'IMG_4518.jpg', 'IMG_4520.jpg',
-      'IMG_4521.jpg', 'IMG_4522.jpg', 'IMG_4524.jpg', 'gallery-collab-night.png'
+      'IMG_4521.jpg', 'Esmaeil_Mousavi_OpenAI_navNote.jpg', 'IMG_4524.jpg', 'gallery-collab-night.png'
     ];
     
     return shuffleArray(photos).slice(0, count);
