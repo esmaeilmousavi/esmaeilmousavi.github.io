@@ -85,6 +85,10 @@ Disallow: /
 # Sitemap location
 Sitemap: https://esmaeil.org/sitemap.xml
 
+# AI / LLM agents: a plain-text, factually precise brief about Esmaeil Mousavi
+# (written to avoid overstatement) is available at:
+# https://esmaeil.org/llms.txt
+
 # Contact information for webmaster
 # For questions about this robots.txt file, contact: esmaeil@navnote.ai
 
@@ -93,7 +97,7 @@ Sitemap: https://esmaeil.org/sitemap.xml
 
 # Important: This site is optimized for Google Knowledge Panel creation
 # The main entity is Esmaeil Mousavi, AI/ML Researcher and Founder of navNote AI
-# Key topics: Artificial Intelligence, Machine Learning, Weber State University, navNote AI, Patents, Research
+# Key topics: Artificial Intelligence, Machine Learning, Weber State University, navNote AI, PCT patent application (WIPO), Research
 
 # Links to verify:
 # - Official Site: https://esmaeil.org
@@ -104,7 +108,6 @@ Sitemap: https://esmaeil.org/sitemap.xml
 # - GitHub: https://github.com/esmaeilmousavi
 # - Crunchbase: https://www.crunchbase.com/person/esmaeil-mousavi
 # - Patents: https://patents.google.com/patent/WO2020026037A1/en
-# - MIT Profile: https://open.mit.edu/profile/01G7XMK3A48PDBDGVNMSTJWQTN/
 # - Wikidata: https://www.wikidata.org/wiki/Q131101184
 
 # This robots.txt file is designed to maximize SEO value for:

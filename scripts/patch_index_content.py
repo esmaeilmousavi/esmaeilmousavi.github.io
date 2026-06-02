@@ -48,7 +48,7 @@ replacements = [
     # About: remove IMC-adjacent math honors line
     (
         "      <p>He came to the United States from Iran in 2022 to further his studies in computer science. At 17 he received an international patent through WIPO for an internal combustion engine he designed — the Two-Stroke X-Shaped Engine. The same period included strong international honors in mathematics and talent programs.</p>",
-        "      <p>He came to the United States from Iran in 2022 to further his studies in computer science. At 17 he received an international patent through WIPO for an internal combustion engine he designed: the Two-Stroke X-Shaped Engine. He was top-ranked in Iran’s NODET national talent entrance examination.</p>",
+        "      <p>He came to the United States from Iran in 2022 to further his studies in computer science. At 17 he designed an internal-combustion engine — the Two-Stroke X-Shaped Engine — and filed it as an international patent application under the Patent Cooperation Treaty (PCT), published by WIPO in 2020. He was top-ranked in Iran’s NODET national talent entrance examination.</p>",
     ),
     # Graduation date
     (
@@ -112,7 +112,6 @@ profile_insert = """          <a href="https://www.navnote.ai/">navNote AI</a>
           <a href="https://itubelabs.com">iTubeLabs</a>
           <a href="https://ncwqr.org/">National Center for Water Quality Research</a>
           <a href="https://www.ibm.com/z">IBM Z Systems</a>
-          <a href="https://open.mit.edu/">MIT Open Learning</a>
           <a href="https://www.acm.org/">ACM</a>
           <a href="https://www.perplexity.ai/">Perplexity</a>
           <a href="https://www.mimik.com/">mimik Technologies</a>
@@ -168,8 +167,8 @@ for old, new in head_updates.items():
     text = text.replace(old, new)
 
 desc = (
-    "Esmaeil Mousavi is Founder &amp; CEO of navNote AI (navnote.ai), the AI operating system for retail, "
-    "and an AI/ML researcher at Weber State University. Patent holder of the Two-Stroke X-Shaped Engine (WIPO). "
+    "Esmaeil Mousavi is Founder &amp; CEO of navNote AI (navnote.ai), building agentic AI for retail operations, "
+    "and an AI/ML researcher at Weber State University. Inventor of the Two-Stroke X-Shaped Engine, a WIPO-published (PCT) patent application. "
     "Based in Manhattan, Provo, and Ogden."
 )
 text = text.replace(
@@ -194,19 +193,19 @@ if '"https://www.navnote.ai/"' not in text:
 # FAQ navNote answer
 text = text.replace(
     '"text": "navNote AI is an AI technology company founded by Esmaeil Mousavi in 2020, specializing in innovative artificial intelligence solutions for autonomous systems and intelligent navigation."',
-    '"text": "navNote AI (navnote.ai) is the AI operating system for retail, founded in 2025 by Esmaeil Mousavi. Agents run store operations including audits, planograms, pricing, and field teams. Headquarters: 60 Madison Avenue, Manhattan."',
+    '"text": "navNote AI (navnote.ai) builds agentic AI for retail operations, founded in 2025 by Esmaeil Mousavi. Agents help run store operations including audits, planograms, pricing, and field teams. Headquarters: 60 Madison Avenue, Manhattan."',
 )
 
 # Person description in JSON-LD
 text = text.replace(
     '"description": "Esmaeil Mousavi is an AI/ML Researcher at Weber State University, Graduate Teaching Assistant, and Founder & CEO of navNote AI. Expert in artificial intelligence, machine learning, autonomous vehicles, and innovative automotive technologies. Patent holder for Two-Stroke X-Shaped Engine technology."',
-    '"description": "Esmaeil Mousavi is Founder and CEO of navNote AI, the AI OS for retail (navnote.ai), and an AI/ML researcher at Weber State University. Patent holder for the Two-Stroke X-Shaped Engine (WIPO). Works across Manhattan, Provo, and Ogden."',
+    '"description": "Esmaeil Mousavi is Founder and CEO of navNote AI, building agentic AI for retail operations (navnote.ai), and an AI/ML researcher at Weber State University. Inventor of the Two-Stroke X-Shaped Engine, a WIPO-published (PCT) patent application. Works across Manhattan, Provo, and Ogden."',
 )
 
 # navNote org description
 text = text.replace(
     '"description": "AI technology company specializing in innovative artificial intelligence solutions for autonomous systems and intelligent navigation"',
-    '"description": "AI operating system for retail. Agentic AI for audits, planograms, pricing, promotions, and field operations."',
+    '"description": "Agentic AI for retail operations. AI agents for audits, planograms, pricing, promotions, and field operations."',
     1,
 )
 
