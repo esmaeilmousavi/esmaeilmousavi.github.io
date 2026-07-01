@@ -98,7 +98,7 @@ BODY = r"""<body>
       </div>
       <div class="identity-col">
         <h3><span class="arrow">→</span>Tech Entrepreneur</h3>
-        <p>Esmaeil founded <em>navNote</em> to bring autonomous-systems thinking into retail’s physical layer: software that sees what is happening on the floor, reasons about what should happen next, and moves work through mobile, cloud agents, and a live operations dashboard. The company is headquartered in Manhattan’s Flatiron District, with engineering in Silicon Slopes and a growing Bay Area presence.</p>
+        <p>Esmaeil founded <em>navNote</em> to bring autonomous-systems thinking into retail’s physical layer: software that sees what is happening on the floor, reasons about what should happen next, and moves work through mobile, cloud agents, and a live operations dashboard. The company is headquartered in San Jose, in the heart of Silicon Valley, with engineering in Silicon Slopes.</p>
         <p>navNote is live in its first retail deployment, is in early conversations with major retailers and technology companies, and is advised by leaders from large retail and technology operators. Esmaeil leads AI/ML across agents, computer vision, and backend orchestration; the company is angel-backed and early-stage. Retail mentorship from the president of a major Kroger subsidiary shaped the company’s focus on in-store execution and Direct Store Delivery.</p>
       </div>
     </div>
@@ -129,7 +129,7 @@ BODY = r"""<body>
         </div>
         <div class="work-meta">
           <span>2025 · Present</span>
-          <span class="tag">NYC · UT · CA</span>
+          <span class="tag">CA · UT</span>
         </div>
       </div>
       <div class="work-item">
@@ -206,7 +206,7 @@ BODY = r"""<body>
           <li><strong>Conversations.</strong> Early discussions with major retailers, technology companies, infrastructure providers, and AI platforms · plus residency at Utah’s flagship innovation hub.</li>
           <li><strong>Enterprise.</strong> Working toward a data and API relationship with one of the nation’s largest grocery organizations for model training on real retail data (pending security and legal review).</li>
           <li><strong>Capital.</strong> Angel-backed and early-stage; Weber State MicroFund + State Award ($10K combined, non-dilutive); advisors from large retail and technology operators.</li>
-          <li><strong>Presence.</strong> HQ at <a href="https://maps.google.com/?q=60+Madison+Avenue+New+York+NY+10010">60 Madison Avenue, Flatiron, Manhattan</a> · engineering in Silicon Slopes · Bay Area presence.</li>
+          <li><strong>Presence.</strong> HQ in <a href="https://maps.google.com/?q=San+Jose+CA">San Jose, Silicon Valley</a> · engineering in Silicon Slopes.</li>
         </ul>
         <p class="company-story-origin">Built from Weber State research into autonomous perception and field operations, with product engineering from Niklas Kennedy (IBM enterprise systems) and go-to-market guidance from the president of a major Kroger subsidiary. The platform extends to warehousing, manufacturing, and broader physical-operations markets.</p>
       </div>
@@ -334,8 +334,8 @@ BODY = r"""<body>
       <div class="section-label"><span class="num">/ 07</span>Addresses</div>
       <div>
         <div class="address-block">
-          <strong>Manhattan · navNote AI HQ</strong>
-          <div><a href="https://maps.google.com/?q=60+Madison+Avenue+New+York+NY+10010">60 Madison Avenue, 9th Floor, New York, NY 10010</a></div>
+          <strong>San Jose · navNote AI HQ</strong>
+          <div><a href="https://maps.google.com/?q=San+Jose+CA">San Jose, Silicon Valley, CA</a></div>
         </div>
         <div class="address-block" style="margin-top:24px;">
           <strong>Ogden · Weber State research</strong>
@@ -524,7 +524,7 @@ BODY = r"""<body>
     </div>
 
     <div class="colophon">
-      <span>© Esmaeil Mousavi · Manhattan, Silicon Valley, Silicon Slopes</span>
+      <span>© Esmaeil Mousavi · San Jose, Silicon Valley · Silicon Slopes</span>
     </div>
   </footer>
 

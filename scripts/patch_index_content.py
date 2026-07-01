@@ -22,7 +22,7 @@ replacements = [
         '          <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:121393a0-345c-4c7c-abf2-e50a534956fd">Résumé / CV · Adobe Acrobat</a>\n',
         '          <a href="/documents/Esmaeil-Mousavi-CV.pdf">Curriculum vitae (PDF)</a>\n',
     ),
-    # Addresses: replace Layton block with Manhattan + Provo
+    # Addresses: replace Layton block with San Jose + Provo
     (
         """        <div class="address-block">
           <strong>Ogden · Research HQ</strong>
@@ -33,8 +33,8 @@ replacements = [
           <div><a href="https://maps.app.goo.gl/XqVj9oGZS1FFcDan8">Room 128 · Autonomous Vehicles &amp; Electronics Lab · Computer &amp; Automotive Engineering Building, 2750 University Park Blvd, Layton, UT 84041</a></div>
         </div>""",
         """        <div class="address-block">
-          <strong>Manhattan · navNote AI HQ</strong>
-          <div><a href="https://maps.google.com/?q=60+Madison+Avenue+New+York+NY+10010">60 Madison Avenue, 9th Floor, New York, NY 10010</a></div>
+          <strong>San Jose · navNote AI HQ</strong>
+          <div><a href="https://maps.google.com/?q=San+Jose+CA">San Jose, Silicon Valley, CA</a></div>
         </div>
         <div class="address-block" style="margin-top:24px;">
           <strong>Ogden · Weber State research</strong>
@@ -58,7 +58,7 @@ replacements = [
     # Colophon
     (
         "      <span>© Esmaeil Mousavi · Manhattan · Ogden</span>",
-        "      <span>© Esmaeil Mousavi · Manhattan · Provo · Ogden</span>",
+        "      <span>© Esmaeil Mousavi · San Jose, Silicon Valley · Silicon Slopes</span>",
     ),
     # Profiles intro (no em dash left but fix wording)
     (
@@ -72,7 +72,7 @@ replacements = [
         '"email": "esmaeilmousavi@weber.edu"\n        },\n        {\n          "@type": "ContactPoint",\n          "contactType": "social media"',
         '"email": "esmaeil@navnote.ai"\n        },\n        {\n          "@type": "ContactPoint",\n          "contactType": "social media"',
     ),
-    # Schema addresses Layton -> Manhattan + Provo
+    # Schema addresses Layton -> San Jose + Provo
     (
         """        {
           "@type": "PostalAddress",
@@ -85,11 +85,9 @@ replacements = [
         }""",
         """        {
           "@type": "PostalAddress",
-          "name": "Manhattan Headquarters",
-          "streetAddress": "60 Madison Avenue, 9th Floor",
-          "addressLocality": "New York",
-          "addressRegion": "NY",
-          "postalCode": "10010",
+          "name": "San Jose Headquarters",
+          "addressLocality": "San Jose",
+          "addressRegion": "CA",
           "addressCountry": "USA"
         },
         {
@@ -169,7 +167,7 @@ for old, new in head_updates.items():
 desc = (
     "Esmaeil Mousavi is Founder &amp; CEO of navNote AI (navnote.ai), building agentic AI for retail operations, "
     "and an AI/ML researcher at Weber State University. Inventor of the Two-Stroke X-Shaped Engine, a WIPO-published (PCT) patent application. "
-    "Based in Manhattan, Provo, and Ogden."
+    "Based in San Jose, Silicon Valley, with research in Silicon Slopes (Utah)."
 )
 text = text.replace(
     'content="Esmaeil Mousavi: AI/ML Researcher at Weber State University, Founder & CEO of navNote AI, Patent Holder of Two-Stroke X-Shaped Engine. Expert in artificial intelligence, machine learning, autonomous vehicles, and innovative automotive technologies. Graduate Teaching Assistant and Tech Entrepreneur."',
@@ -180,8 +178,8 @@ text = text.replace(
     f'content="{desc}"',
 )
 
-text = text.replace('<meta name="geo.placename" content="Ogden, Utah" />', '<meta name="geo.placename" content="New York, New York; Provo, Utah; Ogden, Utah" />')
-text = text.replace('<meta name="location" content="Ogden, Utah, USA" />', '<meta name="location" content="Manhattan, New York; Provo, Utah; Ogden, Utah, USA" />')
+text = text.replace('<meta name="geo.placename" content="Ogden, Utah" />', '<meta name="geo.placename" content="San Jose, California; Provo, Utah; Ogden, Utah" />')
+text = text.replace('<meta name="location" content="Ogden, Utah, USA" />', '<meta name="location" content="San Jose, California; Provo, Utah; Ogden, Utah, USA" />')
 
 # sameAs additions
 if '"https://www.navnote.ai/"' not in text:
@@ -193,13 +191,13 @@ if '"https://www.navnote.ai/"' not in text:
 # FAQ navNote answer
 text = text.replace(
     '"text": "navNote AI is an AI technology company founded by Esmaeil Mousavi in 2020, specializing in innovative artificial intelligence solutions for autonomous systems and intelligent navigation."',
-    '"text": "navNote AI (navnote.ai) builds agentic AI for retail operations, founded in 2025 by Esmaeil Mousavi. Agents help run store operations including audits, planograms, pricing, and field teams. Headquarters: 60 Madison Avenue, Manhattan."',
+    '"text": "navNote AI (navnote.ai) builds agentic AI for retail operations, founded in 2025 by Esmaeil Mousavi. Agents help run store operations including audits, planograms, pricing, and field teams. Headquarters: San Jose, Silicon Valley."',
 )
 
 # Person description in JSON-LD
 text = text.replace(
     '"description": "Esmaeil Mousavi is an AI/ML Researcher at Weber State University, Graduate Teaching Assistant, and Founder & CEO of navNote AI. Expert in artificial intelligence, machine learning, autonomous vehicles, and innovative automotive technologies. Patent holder for Two-Stroke X-Shaped Engine technology."',
-    '"description": "Esmaeil Mousavi is Founder and CEO of navNote AI, building agentic AI for retail operations (navnote.ai), and an AI/ML researcher at Weber State University. Inventor of the Two-Stroke X-Shaped Engine, a WIPO-published (PCT) patent application. Works across Manhattan, Provo, and Ogden."',
+    '"description": "Esmaeil Mousavi is Founder and CEO of navNote AI, building agentic AI for retail operations (navnote.ai), and an AI/ML researcher at Weber State University. Inventor of the Two-Stroke X-Shaped Engine, a WIPO-published (PCT) patent application. Works across San Jose (Silicon Valley) and Silicon Slopes (Utah)."',
 )
 
 # navNote org description
