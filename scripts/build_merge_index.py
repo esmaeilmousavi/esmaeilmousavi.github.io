@@ -261,7 +261,6 @@ BODY = r"""<body>
           <li><div class="honor-date">Jan 2024 · Present</div><div class="honor-body"><strong>IT Advisory committee</strong> · Weber State.</div></li>
           <li><div class="honor-date">Jan 2024</div><div class="honor-body"><strong>Undergraduate Research grant (OUR)</strong> · Weber State.</div></li>
           <li><div class="honor-date">April 2022</div><div class="honor-body"><strong>Heidelberg immersion certificates</strong> · ambassador &amp; emerging leader laurels.</div></li>
-          <li><div class="honor-date">2025</div><div class="honor-body"><strong>Utah innovation recognition</strong> · navNote AI early-stage citation.</div></li>
           <li><div class="honor-date">2026</div><div class="honor-body"><strong>Perplexity Business Fellow</strong> · Comet-style frontier AI cohort.</div></li>
         </ul>
       </div>
