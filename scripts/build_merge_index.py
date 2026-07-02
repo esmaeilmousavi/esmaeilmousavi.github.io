@@ -97,7 +97,7 @@ BODY = r"""<body>
       </div>
       <div class="identity-col">
         <h3><span class="arrow">→</span>Tech Entrepreneur</h3>
-        <p>Esmaeil founded <em>navNote</em> to bring autonomous-systems thinking into retail’s physical layer: software that sees what is happening on the floor, reasons about what should happen next, and moves work through mobile, cloud agents, and a live operations dashboard. The company is headquartered in San Jose, in the heart of Silicon Valley, with a private technology center in Manhattan’s Flatiron District.</p>
+        <p>Esmaeil founded <em>navNote</em> to bring autonomous-systems thinking into retail’s physical layer: software that sees what is happening on the floor, reasons about what should happen next, and moves work through mobile, cloud agents, and a live operations dashboard.</p>
         <p>navNote is live in its first retail deployment and is advised by senior retail operators. Esmaeil leads AI/ML across agents, computer vision, and backend orchestration; the company is angel-backed and early-stage.</p>
       </div>
     </div>
@@ -247,7 +247,7 @@ BODY = r"""<body>
       </div>
       <div>
         <ul class="honors-list">
-          <li><div class="honor-date">2025–2026</div><div class="honor-body"><strong>navNote AI</strong> · First live retail deployment, angel-backed and early-stage, go-to-market mentorship from senior retail operators.</div></li>
+          <li><div class="honor-date">2025–2026</div><div class="honor-body"><strong>navNote AI</strong> · Founder · shipped the platform to its first live retail deployment.</div></li>
           <li><div class="honor-date">2024–2025</div><div class="honor-body"><strong>iHub Utah</strong> · Innovation hub residency. <strong>Weber State MicroFund + State Award</strong> · $10K combined non-dilutive grants.</div></li>
           <li><div class="honor-date">2022–2026</div><div class="honor-body"><strong>Scholarships &amp; research grants</strong> · More than $100,000 in combined internal and external awards supporting education and laboratory research.</div></li>
           <li><div class="honor-date">2014–2020</div><div class="honor-body"><strong>NODET (Iran)</strong> · top-ranked national talent entrance examination.</div></li>
