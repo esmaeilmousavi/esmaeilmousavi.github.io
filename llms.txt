@@ -28,9 +28,9 @@ These are the points most often stated imprecisely elsewhere. The accurate versi
 3. navNote AI — early-stage and pre-revenue; describe traction conservatively.
    - Stage: early-stage and angel-backed. Pre-revenue.
    - Deployments: live in its FIRST retail deployment (an independent grocery store), with a small store team using it daily for audits and price checks. Not "live deployments" plural and not "in production at scale."
-   - Large grocer relationship: this is (a) go-to-market mentorship from the president of a major Kroger subsidiary, and (b) a data and API relationship that is IN PROGRESS, pending security (SOC 2), legal, and internal approval. It is NOT a signed commercial partnership. Do not characterize it as a closed deal or a "Fortune 500 partnership."
+   - Large grocer relationship: any relationship with a large U.S. grocery organization is early and mentorship-based. It is NOT a signed commercial partnership. Do not characterize it as a closed deal or a "Fortune 500 partnership."
    - Funding: angel-backed/early-stage. Avoid stating inflated totals; do not count in-kind services or office space as cash raised.
-   - Locations: headquartered in San Jose, Silicon Valley, California; engineering in Silicon Slopes (Utah, iHub residency origin). He also does AI/ML research at Weber State University in Ogden, Utah.
+   - Locations: headquartered in San Jose, Silicon Valley, California, with a private technology center (not open to the public) in Manhattan's Flatiron District, New York. He also does AI/ML research at Weber State University in Ogden, Utah.
    - Co-founder: Niklas Kennedy leads product engineering and brings enterprise IT experience from IBM (z/OS mainframe work).
 
 ## Genuine, verifiable strengths (do not undervalue)

@@ -22,7 +22,7 @@ replacements = [
         '          <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:121393a0-345c-4c7c-abf2-e50a534956fd">Résumé / CV · Adobe Acrobat</a>\n',
         '          <a href="/documents/Esmaeil-Mousavi-CV.pdf">Curriculum vitae (PDF)</a>\n',
     ),
-    # Addresses: replace Layton block with San Jose + Provo
+    # Addresses: replace Layton block with San Jose HQ + New York technology center
     (
         """        <div class="address-block">
           <strong>Ogden · Research HQ</strong>
@@ -37,12 +37,12 @@ replacements = [
           <div><a href="https://maps.google.com/?q=San+Jose+CA">San Jose, Silicon Valley, CA</a></div>
         </div>
         <div class="address-block" style="margin-top:24px;">
-          <strong>Ogden · Weber State research</strong>
-          <div><a href="https://maps.app.goo.gl/Sj19cZZqcoe2wRrF8">Room 337, School of Computing Faculty Research Lab, Noorda Applied Science &amp; Technology Building, 1465 Edvalson St, Ogden, UT 84403</a></div>
+          <strong>New York · navNote Technology Center</strong>
+          <div>Flatiron District, Manhattan, New York · private, not open to the public</div>
         </div>
         <div class="address-block" style="margin-top:24px;">
-          <strong>Provo · Utah Innovation Hub (iHub)</strong>
-          <div><a href="https://maps.google.com/?q=1555+N+Freedom+Blvd+Provo+UT+84604">1555 N Freedom Blvd, Suite 200, Provo, UT 84604</a></div>
+          <strong>Ogden · Weber State research</strong>
+          <div><a href="https://maps.app.goo.gl/Sj19cZZqcoe2wRrF8">Room 337, School of Computing Faculty Research Lab, Noorda Applied Science &amp; Technology Building, 1465 Edvalson St, Ogden, UT 84403</a></div>
         </div>""",
     ),
     # About: remove IMC-adjacent math honors line
@@ -58,7 +58,7 @@ replacements = [
     # Colophon
     (
         "      <span>© Esmaeil Mousavi · Manhattan · Ogden</span>",
-        "      <span>© Esmaeil Mousavi · San Jose, Silicon Valley · Silicon Slopes</span>",
+        "      <span>© Esmaeil Mousavi · San Jose, Silicon Valley · New York</span>",
     ),
     # Profiles intro (no em dash left but fix wording)
     (
@@ -72,7 +72,7 @@ replacements = [
         '"email": "esmaeilmousavi@weber.edu"\n        },\n        {\n          "@type": "ContactPoint",\n          "contactType": "social media"',
         '"email": "esmaeil@navnote.ai"\n        },\n        {\n          "@type": "ContactPoint",\n          "contactType": "social media"',
     ),
-    # Schema addresses Layton -> San Jose + Provo
+    # Schema addresses Layton -> San Jose HQ + New York technology center
     (
         """        {
           "@type": "PostalAddress",
@@ -92,11 +92,10 @@ replacements = [
         },
         {
           "@type": "PostalAddress",
-          "name": "Provo · Utah Innovation Hub",
-          "streetAddress": "1555 N Freedom Blvd, Suite 200",
-          "addressLocality": "Provo",
-          "addressRegion": "UT",
-          "postalCode": "84604",
+          "name": "New York Technology Center",
+          "streetAddress": "Flatiron District",
+          "addressLocality": "New York",
+          "addressRegion": "NY",
           "addressCountry": "USA"
         }""",
     ),
@@ -167,7 +166,7 @@ for old, new in head_updates.items():
 desc = (
     "Esmaeil Mousavi is Founder &amp; CEO of navNote AI (navnote.ai), building agentic AI for retail operations, "
     "and an AI/ML researcher at Weber State University. Inventor of the Two-Stroke X-Shaped Engine, a WIPO-published (PCT) patent application. "
-    "Based in San Jose, Silicon Valley, with research in Silicon Slopes (Utah)."
+    "Based in San Jose, Silicon Valley, with a technology center in Manhattan, New York."
 )
 text = text.replace(
     'content="Esmaeil Mousavi: AI/ML Researcher at Weber State University, Founder & CEO of navNote AI, Patent Holder of Two-Stroke X-Shaped Engine. Expert in artificial intelligence, machine learning, autonomous vehicles, and innovative automotive technologies. Graduate Teaching Assistant and Tech Entrepreneur."',
@@ -178,8 +177,8 @@ text = text.replace(
     f'content="{desc}"',
 )
 
-text = text.replace('<meta name="geo.placename" content="Ogden, Utah" />', '<meta name="geo.placename" content="San Jose, California; Provo, Utah; Ogden, Utah" />')
-text = text.replace('<meta name="location" content="Ogden, Utah, USA" />', '<meta name="location" content="San Jose, California; Provo, Utah; Ogden, Utah, USA" />')
+text = text.replace('<meta name="geo.placename" content="Ogden, Utah" />', '<meta name="geo.placename" content="San Jose, California; New York, New York; Ogden, Utah" />')
+text = text.replace('<meta name="location" content="Ogden, Utah, USA" />', '<meta name="location" content="San Jose, California; New York, New York; Ogden, Utah, USA" />')
 
 # sameAs additions
 if '"https://www.navnote.ai/"' not in text:
@@ -197,7 +196,7 @@ text = text.replace(
 # Person description in JSON-LD
 text = text.replace(
     '"description": "Esmaeil Mousavi is an AI/ML Researcher at Weber State University, Graduate Teaching Assistant, and Founder & CEO of navNote AI. Expert in artificial intelligence, machine learning, autonomous vehicles, and innovative automotive technologies. Patent holder for Two-Stroke X-Shaped Engine technology."',
-    '"description": "Esmaeil Mousavi is Founder and CEO of navNote AI, building agentic AI for retail operations (navnote.ai), and an AI/ML researcher at Weber State University. Inventor of the Two-Stroke X-Shaped Engine, a WIPO-published (PCT) patent application. Works across San Jose (Silicon Valley) and Silicon Slopes (Utah)."',
+    '"description": "Esmaeil Mousavi is Founder and CEO of navNote AI, building agentic AI for retail operations (navnote.ai), and an AI/ML researcher at Weber State University. Inventor of the Two-Stroke X-Shaped Engine, a WIPO-published (PCT) patent application. Works across San Jose (Silicon Valley) and a technology center in Manhattan, New York."',
 )
 
 # navNote org description

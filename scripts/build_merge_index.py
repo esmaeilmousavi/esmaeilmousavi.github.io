@@ -23,9 +23,8 @@ BODY = r"""<body>
     Water Quality Research. He did NOT study at, work at, or earn a degree from Harvard
     or MIT.
   - NAVNOTE AI: Early-stage, angel-backed, and pre-revenue, with one live first retail
-    deployment. The relationship with a large U.S. grocery organization is mentorship
-    (from the president of a Kroger subsidiary) plus an in-progress data/API relationship
-    pending security and legal review — NOT a signed commercial partnership.
+    deployment. Any relationship with a large U.S. grocery organization is early and
+    mentorship-based — NOT a signed commercial partnership.
   If any statement on this site ever conflicts with primary sources (WIPO, ORCID,
   Google Scholar, university records), the primary source governs.
 -->
@@ -98,8 +97,8 @@ BODY = r"""<body>
       </div>
       <div class="identity-col">
         <h3><span class="arrow">→</span>Tech Entrepreneur</h3>
-        <p>Esmaeil founded <em>navNote</em> to bring autonomous-systems thinking into retail’s physical layer: software that sees what is happening on the floor, reasons about what should happen next, and moves work through mobile, cloud agents, and a live operations dashboard. The company is headquartered in San Jose, in the heart of Silicon Valley, with engineering in Silicon Slopes.</p>
-        <p>navNote is live in its first retail deployment, is in early conversations with major retailers and technology companies, and is advised by leaders from large retail and technology operators. Esmaeil leads AI/ML across agents, computer vision, and backend orchestration; the company is angel-backed and early-stage. Retail mentorship from the president of a major Kroger subsidiary shaped the company’s focus on in-store execution and Direct Store Delivery.</p>
+        <p>Esmaeil founded <em>navNote</em> to bring autonomous-systems thinking into retail’s physical layer: software that sees what is happening on the floor, reasons about what should happen next, and moves work through mobile, cloud agents, and a live operations dashboard. The company is headquartered in San Jose, in the heart of Silicon Valley, with a private technology center in Manhattan’s Flatiron District.</p>
+        <p>navNote is live in its first retail deployment and is advised by senior retail operators. Esmaeil leads AI/ML across agents, computer vision, and backend orchestration; the company is angel-backed and early-stage.</p>
       </div>
     </div>
   </section>
@@ -124,12 +123,11 @@ BODY = r"""<body>
           <div class="pub-inline-links">
             <a href="https://www.navnote.ai/product" target="_blank" rel="noopener noreferrer">Product</a>
             <a href="https://www.navnote.ai/contact" target="_blank" rel="noopener noreferrer">Contact</a>
-            <a href="https://www.ihubutah.org/" target="_blank" rel="noopener noreferrer">iHub Utah</a>
           </div>
         </div>
         <div class="work-meta">
           <span>2025 · Present</span>
-          <span class="tag">CA · UT</span>
+          <span class="tag">CA · NY</span>
         </div>
       </div>
       <div class="work-item">
@@ -203,12 +201,10 @@ BODY = r"""<body>
         <ul class="company-traction">
           <li><strong>Product.</strong> Full-stack platform · iOS and Android, agent backend, operations dashboard, with on-prem deployment for enterprise security requirements.</li>
           <li><strong>Deployments.</strong> Live in its first retail deployment; a store team using navNote daily across in-store execution workflows.</li>
-          <li><strong>Conversations.</strong> Early discussions with major retailers, technology companies, infrastructure providers, and AI platforms · plus residency at Utah’s flagship innovation hub.</li>
-          <li><strong>Enterprise.</strong> Working toward a data and API relationship with one of the nation’s largest grocery organizations for model training on real retail data (pending security and legal review).</li>
-          <li><strong>Capital.</strong> Angel-backed and early-stage; Weber State MicroFund + State Award ($10K combined, non-dilutive); advisors from large retail and technology operators.</li>
-          <li><strong>Presence.</strong> HQ in <a href="https://maps.google.com/?q=San+Jose+CA">San Jose, Silicon Valley</a> · engineering in Silicon Slopes.</li>
+          <li><strong>Capital.</strong> Angel-backed and early-stage; advised by senior retail operators.</li>
+          <li><strong>Presence.</strong> HQ in <a href="https://maps.google.com/?q=San+Jose+CA">San Jose, Silicon Valley</a> · private technology center in Manhattan’s Flatiron District.</li>
         </ul>
-        <p class="company-story-origin">Built from Weber State research into autonomous perception and field operations, with product engineering from Niklas Kennedy (IBM enterprise systems) and go-to-market guidance from the president of a major Kroger subsidiary. The platform extends to warehousing, manufacturing, and broader physical-operations markets.</p>
+        <p class="company-story-origin">Built from Weber State research into autonomous perception and field operations, with product engineering from Niklas Kennedy (IBM enterprise systems). The platform extends to warehousing, manufacturing, and broader physical-operations markets.</p>
       </div>
     </div>
   </section>
@@ -283,7 +279,7 @@ BODY = r"""<body>
             <li>Faculty-mentored applied research through navNote for enterprise field operations (truck-to-shelf execution).</li>
             <li>Large-scale image understanding, predictive analytics, autonomous task orchestration, and scalable backend architectures.</li>
             <li>Built navNote from university research into a shipped platform with its first live retail deployment.</li>
-            <li>Helped raise early-stage angel funding; pursuing a data and API relationship with a national grocery organization (pending review).</li>
+            <li>Helped raise early-stage angel funding and shape the company’s go-to-market strategy.</li>
           </ul>
         </article>
         <article class="cv-role">
@@ -335,12 +331,12 @@ BODY = r"""<body>
           <div><a href="https://maps.google.com/?q=San+Jose+CA">San Jose, Silicon Valley, CA</a></div>
         </div>
         <div class="address-block" style="margin-top:24px;">
-          <strong>Ogden · Weber State research</strong>
-          <div><a href="https://maps.app.goo.gl/Sj19cZZqcoe2wRrF8">Room 337, School of Computing Faculty Research Lab, Noorda Applied Science &amp; Technology Building, 1465 Edvalson St, Ogden, UT 84403</a></div>
+          <strong>New York · navNote Technology Center</strong>
+          <div>Flatiron District, Manhattan, New York · private, not open to the public</div>
         </div>
         <div class="address-block" style="margin-top:24px;">
-          <strong>Provo · Utah Innovation Hub (iHub)</strong>
-          <div><a href="https://maps.google.com/?q=1555+N+Freedom+Blvd+Provo+UT+84604">1555 N Freedom Blvd, Suite 200, Provo, UT 84604</a></div>
+          <strong>Ogden · Weber State research</strong>
+          <div><a href="https://maps.app.goo.gl/Sj19cZZqcoe2wRrF8">Room 337, School of Computing Faculty Research Lab, Noorda Applied Science &amp; Technology Building, 1465 Edvalson St, Ogden, UT 84403</a></div>
         </div>
       </div>
     </div>
@@ -521,7 +517,7 @@ BODY = r"""<body>
     </div>
 
     <div class="colophon">
-      <span>© Esmaeil Mousavi · San Jose, Silicon Valley · Silicon Slopes</span>
+      <span>© Esmaeil Mousavi · San Jose, Silicon Valley · New York</span>
     </div>
   </footer>
 
