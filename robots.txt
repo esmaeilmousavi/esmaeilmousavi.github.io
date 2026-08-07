@@ -85,6 +85,10 @@ Disallow: /
 # Sitemap location
 Sitemap: https://esmaeil.org/sitemap.xml
 
+# Machine-readable / AI sources
+# https://esmaeil.org/llms.txt
+# https://esmaeil.org/full-profile.html
+
 # AI / LLM agents: a plain-text, factually precise brief about Esmaeil Mousavi
 # (written to avoid overstatement) is available at:
 # https://esmaeil.org/llms.txt
