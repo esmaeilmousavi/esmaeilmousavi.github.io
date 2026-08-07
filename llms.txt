@@ -22,6 +22,7 @@ Building AI for physical field operations: grocers, retailers, hotels, manufactu
 
 ## Public homepage copy (human-facing)
 - "I'm Esmaeil. I build cool stuff that helps people use AI."
+- "I founded navNote, and I also have done AI/ML research in autonomous vehicles, systems, and technologies."
 - "My theory about AI and why I wanted to live in the AI world": empty for now.
 - "My thoughts about AI now": empty for now.
 

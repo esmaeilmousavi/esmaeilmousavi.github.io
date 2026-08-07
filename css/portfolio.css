@@ -1002,6 +1002,11 @@ footer.bottom {
   max-width: 34ch;
 }
 
+.sparse-line--follow {
+  margin-top: 16px;
+  max-width: 42ch;
+}
+
 .sparse-block {
   padding: 48px 0;
   border-top: 1px solid var(--rule);
