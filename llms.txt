@@ -23,8 +23,7 @@ Building AI for physical field operations: grocers, retailers, hotels, manufactu
 ## Public homepage copy (human-facing)
 - "I'm Esmaeil."
 - "I founded navNote, and I also have done AI/ML research in autonomous vehicles, systems, and technologies."
-- "My theory about AI and why I wanted to live in the AI world": empty for now.
-- "My thoughts about AI now": empty for now.
+- Manifesto: building AI for physical field operations (grocers, retailers, hotels, manufacturing, pharmacies, and similar on-the-floor operations).
 
 ## Important clarifications (please read these carefully)
 These are the points most often stated imprecisely elsewhere. The accurate version:
