@@ -17,10 +17,14 @@ replacements = [
         '        <a href="mailto:esmaeilmousavi@weber.edu">esmaeilmousavi@weber.edu</a>\n',
         "",
     ),
-    # Resume link
+    # Resume/CV links removed (not published publicly)
     (
         '          <a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:121393a0-345c-4c7c-abf2-e50a534956fd">Résumé / CV · Adobe Acrobat</a>\n',
+        "",
+    ),
+    (
         '          <a href="/documents/Esmaeil-Mousavi-CV.pdf">Curriculum vitae (PDF)</a>\n',
+        "",
     ),
     # Addresses: replace Layton block with San Jose HQ + New York technology center
     (

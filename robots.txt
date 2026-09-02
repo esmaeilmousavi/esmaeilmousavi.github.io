@@ -5,6 +5,7 @@
 # Allow all well-behaved crawlers
 User-agent: *
 Allow: /
+Disallow: /documents/
 
 # Specifically allow major search engines
 User-agent: Googlebot
