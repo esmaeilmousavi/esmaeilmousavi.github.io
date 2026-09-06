@@ -93,7 +93,7 @@ BODY = r"""<body>
       <div class="identity-col">
         <h3><span class="arrow">→</span>Research Scientist</h3>
         <p>Esmaeil’s research focuses on applied artificial intelligence in real-world, real-time environments · reinforcement learning for autonomous perception, decentralized SWARM learning for collaborative obstacle recognition, ML defenses against acoustic denial-of-service attacks, and predictive modeling on long-horizon environmental sensor data.</p>
-        <p>As a graduate teaching assistant he co-developed and led a graduate-level course in route planning and navigation for autonomous systems. He presents at undergraduate research forums, and his environmental-data research at the National Center for Water Quality Research was conducted in collaboration with scientists from Harvard Medical School and the Broad Institute of MIT and Harvard.</p>
+        <p>As an undergraduate he co-developed and led a graduate-level course in route planning and navigation for autonomous systems. He presents at undergraduate research forums, and his environmental-data research at the National Center for Water Quality Research was conducted in collaboration with scientists from Harvard Medical School and the Broad Institute of MIT and Harvard.</p>
       </div>
       <div class="identity-col">
         <h3><span class="arrow">→</span>Tech Entrepreneur</h3>
