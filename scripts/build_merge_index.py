@@ -364,6 +364,11 @@ BODY = r"""<body>
             <li><figure class="gallery-card"><img src="images/Esmaeil_Mousavi_OpenAI_navNote.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-futurup-team.jpg" alt="Esmaeil Mousavi and Niklas Kennedy at FUTURUP" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-bryce-johnson.jpg" alt="Esmaeil Mousavi with Bryce Johnson" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-research-lab.jpg" alt="Esmaeil Mousavi at the research lab" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-nyc-rooftop.jpg" alt="Esmaeil Mousavi and Niklas Kennedy in Manhattan" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-mike-shin-founders-inc.jpg" alt="Esmaeil Mousavi with Mike Shin, Founders Inc" loading="lazy" decoding="async" /></figure></li>
           </ul>
           <ul class="gallery-marquee-group" aria-hidden="true">
             <li><figure class="gallery-card"><img src="images/IMG_4505.jpg" alt="Esmaeil Mousavi — photo 1" loading="lazy" decoding="async" /></figure></li>
@@ -382,6 +387,11 @@ BODY = r"""<body>
             <li><figure class="gallery-card"><img src="images/Esmaeil_Mousavi_OpenAI_navNote.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-futurup-team.jpg" alt="Esmaeil Mousavi and Niklas Kennedy at FUTURUP" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-bryce-johnson.jpg" alt="Esmaeil Mousavi with Bryce Johnson" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-research-lab.jpg" alt="Esmaeil Mousavi at the research lab" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-nyc-rooftop.jpg" alt="Esmaeil Mousavi and Niklas Kennedy in Manhattan" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-mike-shin-founders-inc.jpg" alt="Esmaeil Mousavi with Mike Shin, Founders Inc" loading="lazy" decoding="async" /></figure></li>
           </ul>
             </div>
           </div>
@@ -404,6 +414,11 @@ BODY = r"""<body>
             <li><figure class="gallery-card"><img src="images/IMG_4510.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4507.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4505.jpg" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-futurup-team.jpg" alt="Esmaeil Mousavi and Niklas Kennedy at FUTURUP" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-bryce-johnson.jpg" alt="Esmaeil Mousavi with Bryce Johnson" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-research-lab.jpg" alt="Esmaeil Mousavi at the research lab" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-nyc-rooftop.jpg" alt="Esmaeil Mousavi and Niklas Kennedy in Manhattan" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-mike-shin-founders-inc.jpg" alt="Esmaeil Mousavi with Mike Shin, Founders Inc" loading="lazy" decoding="async" /></figure></li>
           </ul>
           <ul class="gallery-marquee-group" aria-hidden="true">
             <li><figure class="gallery-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi — photo 1" loading="lazy" decoding="async" /></figure></li>
@@ -422,6 +437,11 @@ BODY = r"""<body>
             <li><figure class="gallery-card"><img src="images/IMG_4510.jpg" alt="Esmaeil Mousavi — photo 14" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4507.jpg" alt="Esmaeil Mousavi — photo 15" loading="lazy" decoding="async" /></figure></li>
             <li><figure class="gallery-card"><img src="images/IMG_4505.jpg" alt="Esmaeil Mousavi — photo 16" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-futurup-team.jpg" alt="Esmaeil Mousavi and Niklas Kennedy at FUTURUP" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-bryce-johnson.jpg" alt="Esmaeil Mousavi with Bryce Johnson" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-research-lab.jpg" alt="Esmaeil Mousavi at the research lab" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-nyc-rooftop.jpg" alt="Esmaeil Mousavi and Niklas Kennedy in Manhattan" loading="lazy" decoding="async" /></figure></li>
+            <li><figure class="gallery-card"><img src="images/gallery-mike-shin-founders-inc.jpg" alt="Esmaeil Mousavi with Mike Shin, Founders Inc" loading="lazy" decoding="async" /></figure></li>
           </ul>
             </div>
           </div>
@@ -443,6 +463,11 @@ BODY = r"""<body>
           <figure class="gallery-static-card"><img src="images/Esmaeil_Mousavi_OpenAI_navNote.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
           <figure class="gallery-static-card"><img src="images/IMG_4524.jpg" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
           <figure class="gallery-static-card"><img src="images/gallery-collab-night.png" alt="Esmaeil Mousavi" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/gallery-futurup-team.jpg" alt="Esmaeil Mousavi and Niklas Kennedy at FUTURUP" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/gallery-bryce-johnson.jpg" alt="Esmaeil Mousavi with Bryce Johnson" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/gallery-research-lab.jpg" alt="Esmaeil Mousavi at the research lab" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/gallery-nyc-rooftop.jpg" alt="Esmaeil Mousavi and Niklas Kennedy in Manhattan" loading="lazy" decoding="async" /></figure>
+          <figure class="gallery-static-card"><img src="images/gallery-mike-shin-founders-inc.jpg" alt="Esmaeil Mousavi with Mike Shin, Founders Inc" loading="lazy" decoding="async" /></figure>
       </div>
     </div>
   </section>
